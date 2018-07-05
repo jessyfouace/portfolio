@@ -285,3 +285,147 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.autotop {
+  position: fixed;
+  top: 50%;
+  width: 100%;
+  text-align: right;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/fondheader.jpg");
+  color: white;
+}
+
+.nav {
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 5px 34px 1px black;
+  padding: 10px 0px 10px 0px;
+}
+
+.nav li {
+  display: inline;
+  font-size: 12px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #d24d57;
+  margin-left: 10px;
+  padding-top: 100%;
+  padding-bottom: 12px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Center absolute div code at : https://www.alsacreations.com/article/lire/539-Centrer-les-elements-ou-un-site-web-en-CSS.html */
+
+.middleheader {
+  width: 77%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 12px;
+}
+
+.middleheader h2 {
+  padding-bottom: 20px;
+}
+
+/* ############## START MIDDLE PAGE ############### */
+/* ############## START MIDDLE PAGE ############### */
+/* ############## START MIDDLE PAGE ############### */
+/* ############## START MIDDLE PAGE ############### */
+/* ############## START MIDDLE PAGE ############### */
+/* ############## START MIDDLE PAGE ############### */
+/* ############## START MIDDLE PAGE ############### */
+
+h3 {
+  font-size: 15px;
+  border-bottom: 1px solid lightgrey;
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+h3 span {
+  background-color: white;
+  top: 10px;
+  position: relative;
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 150px;
+  color: #d24d57;
+}
+
+.firstsection,
+.thirdsection,
+.firstsection span,
+.thirdsection span{
+  background-color: #f8f8f8;
+}
+
+.firstrealisations {
+  margin: 30px 0px 30px 0px;
+}
+
+.buttonforarticle input {
+  border: 1px solid #d24d57;
+  border-radius: 3px;
+  background-color: inherit;
+  padding: 1px;
+  color: #d24d57;
+}
+
+.firstrealisations,
+.secondrealisations,
+.thirdrealisations {
+  width: 25%;
+  display: inline-block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.allrealisations {
+  width: 90%;
+  display: flex;
+  margin: auto;
+}
+
+.buttonforarticle {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.thirdsection {
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 767px) {
+  
+  .autotop img[class="topautopc"] {
+    width: 50px;
+  }
+}
