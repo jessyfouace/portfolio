@@ -296,6 +296,7 @@ textarea {
   position: fixed;
   top: 50%;
   width: 100%;
+  height: 1px;
   text-align: right;
 }
 
@@ -307,14 +308,10 @@ header {
 }
 
 .nav {
-  z-index: 1000;
-  position: fixed;
   width: 100%;
   display: block;
   margin: auto;
   text-align: center;
-  background-color: #ffffff;
-  box-shadow: 0 5px 34px 1px black;
   padding: 10px 0px 10px 0px;
 }
 
@@ -325,10 +322,11 @@ header {
 
 .nav a {
   text-decoration: none;
-  color: #d24d57;
+  color: black;
   margin-left: 10px;
   padding-top: 100%;
   padding-bottom: 12px;
+  font-weight: bold;
 }
 
 .nav a:hover {
@@ -385,6 +383,24 @@ h3 span {
   background-color: #f8f8f8;
 }
 
+/* ############## START ABOUT PAGE ############### */
+/* ############## START ABOUT PAGE ############### */
+/* ############## START ABOUT PAGE ############### */
+/* ############## START ABOUT PAGE ############### */
+/* ############## START ABOUT PAGE ############### */
+/* ############## START ABOUT PAGE ############### */
+/* ############## START ABOUT PAGE ############### */
+
+
+
+/* ############## START REALISATION PAGE ############### */
+/* ############## START REALISATION PAGE ############### */
+/* ############## START REALISATION PAGE ############### */
+/* ############## START REALISATION PAGE ############### */
+/* ############## START REALISATION PAGE ############### */
+/* ############## START REALISATION PAGE ############### */
+/* ############## START REALISATION PAGE ############### */
+
 .firstrealisations {
   margin: 30px 0px 30px 0px;
 }
@@ -394,38 +410,107 @@ h3 span {
   border-radius: 3px;
   background-color: inherit;
   padding: 1px;
+  width: 20%;
   color: #d24d57;
+  margin-top: 20px;
 }
 
 .firstrealisations,
 .secondrealisations,
 .thirdrealisations {
-  width: 25%;
-  display: inline-block;
+  width: 100%;
+  text-align: center;
+  display: block;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.firstrealisations img:hover,
+.secondrealisations img:hover,
+.thirdrealisations img:hover {
+  opacity: 0.7;
 }
 
 .allrealisations {
   width: 90%;
-  display: flex;
+  display: block;
   margin: auto;
 }
 
 .buttonforarticle {
   width: 100%;
   text-align: center;
-  margin-top: 10px;
+  margin: 15px 0px 15px 0px;
 }
 
 .thirdsection {
   margin-top: 30px;
 }
 
+/* ############## START BLOG PAGE ############### */
+/* ############## START BLOG PAGE ############### */
+/* ############## START BLOG PAGE ############### */
+/* ############## START BLOG PAGE ############### */
+/* ############## START BLOG PAGE ############### */
+/* ############## START BLOG PAGE ############### */
+/* ############## START BLOG PAGE ############### */
+
+
+
+/* ############## START FORMULAIRE PAGE ############### */
+/* ############## START FORMULAIRE PAGE ############### */
+/* ############## START FORMULAIRE PAGE ############### */
+/* ############## START FORMULAIRE PAGE ############### */
+/* ############## START FORMULAIRE PAGE ############### */
+/* ############## START FORMULAIRE PAGE ############### */
+/* ############## START FORMULAIRE PAGE ############### */
+
+.allform {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.allform {
+  margin-top: 20px;
+}
+
+.startform input,
+.allform textarea {
+  background-color: white;
+  border: 1px solid #d24d57;
+  border-radius: 6px;
+  color: grey;
+  padding: 5px 4px 5px 10px;
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.envoyerbutton {
+  width: 30%;
+  max-width: 200px;
+  background-color: #d24d57;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 5px 4px 5px 10px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+/* ############## START FOOTER PAGE ############### */
+/* ############## START FOOTER PAGE ############### */
+/* ############## START FOOTER PAGE ############### */
+/* ############## START FOOTER PAGE ############### */
+/* ############## START FOOTER PAGE ############### */
+/* ############## START FOOTER PAGE ############### */
+/* ############## START FOOTER PAGE ############### */
+
 @media screen and (min-width: 767px) {
-  
-  .autotop img[class="topautopc"] {
-    width: 50px;
-  }
+
 }
