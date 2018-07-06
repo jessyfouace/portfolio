@@ -1,3 +1,6 @@
+
+/* SOURCE OF THE CODE: https://wprock.fr/blog/smooth-scrolling-jquery/ */
+
 $(function() {
     /**
     * Smooth scrolling to page anchor on click
@@ -10,7 +13,7 @@ $(function() {
             var anchor = $(this.hash);
             anchor = anchor.length ? anchor : $("[name=" + this.hash.slice(1) +"]");
             if ( anchor.length ) {
-                $("html, body").animate( { scrollTop: anchor.offset().top }, 700);
+                $("html, body").animate( { scrollTop: anchor.offset().top }, 1600);
             }
         }
     });
