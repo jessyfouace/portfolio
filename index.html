@@ -1,28 +1,15 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="fr">
 <head>
+  <title>Jessy Fouace</title>
   <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Jessy F.</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/normalize.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/main.css">
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-</head>
 
-<body>
-  <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-
-  <!-- Add your site or application content here -->
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
@@ -35,165 +22,166 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</head>
+<body>
+
+<header id="toppage">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#toppage"><img src="img/test.png" style="width:20px; height: 20px;"/></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#toppage">Accueil</a></li>
+          <li><a href="#aboutme">A Propos</a></li>
+          <li><a href="#myblog">Galerie</a></li>
+          <li><a href="#contactme">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="middleheader">
+    <h1>Jessy Fouace</h1>
+    <h2>Développeur Web Junior</h2>
+  </div>
+
+</header>
+
+  <!-- ##############################################
+      ################################################
+      ############ Start of first page ##############
+      ################################################
+       ############################################## -->
+
+  <section class="firstsection">
+
+    <h3 id="realisation">
+      <span>Mes Réalisations</span>
+    </h3>
+  <div class="allrealisations">
+    <div class="firstrealisations">
+      <a href="img/archi.png" target="_blank"><img src="img/archi.png" alt="Image d'un de mes travail (faire le front de la page archiduchesse)" style="width:80%"/></a>
+      <div class="buttonforarticle">
+        <input type="button" value="Répo" onclick="window.location.href='https://github.com/jessyfouace/archiduchesse'"/>
+        <input type="button" value="Voir" onclick="window.location.href='https://jessyfouace.github.io/archiduchesse/'"/>
+      </div>
+    </div>
+
+    <div class="secondrealisations">
+      <a href="img/leboncoin.png" target="_blank"><img src="img/leboncoin.png" alt="Image d'un de mes travail de reconstitution du site leboncoin" style="width:80%"/></a>
+      <div class="buttonforarticle">
+        <input type="button" value="Répo" onclick="window.location.href='https://github.com/jessyfouace/semaine2leboncoin'"/>
+        <input type="button" value="Voir" onclick="window.location.href='https://jessyfouace.github.io/semaine2leboncoin/'"/>
+      </div>
+    </div>
+
+    <div class="thirdrealisations">
+      <a href="img/coiffeur.png" target="_blank"><img src="img/coiffeur.png" alt="Image d'un travail de groupe, dont j'ai fais la partie contact" style="width:80%"/></a>
+      <div class="buttonforarticle">
+        <input type="button" value="Répo" onclick="window.location.href='https://github.com/YesWeWeb/YesWeTatoo'"/>
+        <input type="button" value="Voir" onclick="window.location.href='https://yesweweb.github.io/YesWeTatoo/'"/>
+      </div>
+    </div>
+  </div>
+  </section>
 
   <!-- #########################################
       ###########################################
-      ############ Start of header ##############
+      ############ Start of second page ########
       ###########################################
        ######################################### -->
 
-<header>
+  <section>
+      <h3 id="aboutme">
+        <span>À Propos de moi</span>
+      </h3>
+      <div class="textaboutme">
+      <p>Moi c'est Jessy, j'ai 19 ans, et j'habite à Calais, je suis actuellement en formation à SIMPLON Lesquin pour devenir développeur WEB !
+        Depuis l'âge de 6 ans j'ai toujours eu un ordinateur avec moi, au début c'étais comme pour tous gamins de cette âge, jouer à des jeux
+        auquels personnes n'oserais re-jouer à notre âge. Puis vers l'âge de 14ans j'ai commencer à m'interesser au développement. J'ai tous d'abbord étais
+        sur OpenClassRoom et CodeAcademy. Durant cette période j'étais au Lycée en BAC PRO Système Electronique et Numérique. par la suite les années sont
+        passée et je me suis inscrit en Garantie jeune et par la même occasion à Simplon Lesquin pour apprendre mon boulot de rêve. Et à l'heure d'aujourd'hui
+        Je suis encore là bas entrain de me faire former au métier.
+      </div>
+  </section>
+  <!-- ##############################################
+      ################################################
+      ############ Start of third page ##############
+      ################################################
+       ############################################## -->
 
-  <div id="topscroll" class="allheader">
-    <div class="nav">
-      <ul>
-        <li><a href="#realisation">Réalisations</a></li>
-        <li><a href="#aboutme">À Propos</a></li>
-        <li><a href="#myblog">Parcours</a></li>
-        <li><a href="#contactme">Contact</a></li>
-      </ul>
-    </div>
+  <section class="thirdsection">
 
-    <div class="middleheader">
-      <h1>Jessy Fouace</h1>
-      <h2>Développeur Web Junior</h2>
-      <!-- image generate on: https://icons8.com/ -->
-    </div>
-    <div class="autotop">
-      <a href="#topscroll"><img class="topautopc" src="img/topautopc.png" alt="Cliquer sur cette flèche pour allez en haut de la page"/></a>
-    </div>
-  </div>
-</header>
-
-<!-- ##############################################
-    ################################################
-    ############ Start of first page ##############
-    ################################################
-     ############################################## -->
-
-<section class="firstsection">
-
-  <h3 id="realisation">
-    <span>Mes Réalisations</span>
-  </h3>
-<div class="allrealisations">
-  <div class="firstrealisations">
-    <a href="img/archi.png" target="_blank"><img src="img/archi.png" alt="Image d'un de mes travail (faire le front de la page archiduchesse)" style="width:80%"/></a>
-    <div class="buttonforarticle">
-      <input type="button" value="Répo" onclick="window.location.href='https://github.com/jessyfouace/archiduchesse'"/>
-      <input type="button" value="Voir" onclick="window.location.href='https://jessyfouace.github.io/archiduchesse/'"/>
-    </div>
-  </div>
-
-  <div class="secondrealisations">
-    <a href="img/leboncoin.png" target="_blank"><img src="img/leboncoin.png" alt="Image d'un de mes travail de reconstitution du site leboncoin" style="width:80%"/></a>
-    <div class="buttonforarticle">
-      <input type="button" value="Répo" onclick="window.location.href='https://github.com/jessyfouace/semaine2leboncoin'"/>
-      <input type="button" value="Voir" onclick="window.location.href='https://jessyfouace.github.io/semaine2leboncoin/'"/>
-    </div>
-  </div>
-
-  <div class="thirdrealisations">
-    <a href="img/coiffeur.png" target="_blank"><img src="img/coiffeur.png" alt="Image d'un travail de groupe, dont j'ai fais la partie contact" style="width:80%"/></a>
-    <div class="buttonforarticle">
-      <input type="button" value="Répo" onclick="window.location.href='https://github.com/YesWeWeb/YesWeTatoo'"/>
-      <input type="button" value="Voir" onclick="window.location.href='https://yesweweb.github.io/YesWeTatoo/'"/>
-    </div>
-  </div>
-</div>
-</section>
-
-<!-- #########################################
-    ###########################################
-    ############ Start of second page ########
-    ###########################################
-     ######################################### -->
-
-<section>
-    <h3 id="aboutme">
-      <span>À Propos de moi</span>
+    <h3 id="myblog">
+      <span>Mon Parcours</span>
     </h3>
-    <div class="textaboutme">
-    <p>Moi c'est Jessy, j'ai 19 ans, et j'habite à Calais, je suis actuellement en formation à SIMPLON Lesquin pour devenir développeur WEB !
-      Depuis l'âge de 6 ans j'ai toujours eu un ordinateur avec moi, au début c'étais comme pour tous gamins de cette âge, jouer à des jeux
-      auquels personnes n'oserais re-jouer à notre âge. Puis vers l'âge de 14ans j'ai commencer à m'interesser au développement. J'ai tous d'abbord étais
-      sur OpenClassRoom et CodeAcademy. Durant cette période j'étais au Lycée en BAC PRO Système Electronique et Numérique. par la suite les années sont
-      passée et je me suis inscrit en Garantie jeune et par la même occasion à Simplon Lesquin pour apprendre mon boulot de rêve. Et à l'heure d'aujourd'hui
-      Je suis encore là bas entrain de me faire former au métier.
+    <div class="allmyblog">
+      <div class="leftimage">
+        <img src="img/parcours.png" alt="Photo montrant mon parcours" style="width:50%"/>
+      </div>
+      <div class="righttext">
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
     </div>
-</section>
-<!-- ##############################################
-    ################################################
-    ############ Start of third page ##############
-    ################################################
-     ############################################## -->
+  </section>
 
-<section class="thirdsection">
+  <!-- ##############################################
+      ################################################
+      ############ Start of fourth page ##############
+      ################################################
+       ############################################## -->
 
-  <h3 id="myblog">
-    <span>Mon Parcours</span>
-  </h3>
-  <div class="allmyblog">
-    <div class="leftimage">
-      <img src="img/parcours.png" alt="Photo montrant mon parcours" style="width:50%"/>
+  <section>
+
+    <h3 id="contactme">
+      <span>Me Contacter</span>
+    </h3>
+    <div class="allform">
+      <div class="startform">
+        <label class ="labelforrestriction">*Champ Obligatoire</label>
+        <input class="name" type="text" placeholder="Nom/Prénom *"/>
+        <input class="phone" type="tel" placeholder="Téléphone"/>
+        <input class="mail" type="email" placeholder="E-Mail *"/>
+      </div>
+      <textarea  class="sujet" name="le-message" rows="10" cols="20" placeholder="Sujet *"></textarea>
+      <input class="envoyerbutton" type="submit" value="Envoyer"/>
     </div>
-    <div class="righttext">
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </section>
+
+  <!-- #########################################
+      ###########################################
+      ############ Start of Footer ##############
+      ###########################################
+       ######################################### -->
+  <footer>
+  <!--
+    <a href="" download="robots.txt">Télécharger mon CV</a>
+  -->
+
+  <div class="allfooterleft">
+    <div class="imgforleftfooter">
+      <h4>Me rejoindre</h4>
+      <a href=""><img src="img/github.png" alt="Image cliquable pour rejoindre ma page github" style="width:40px"/></a>
+      <a href=""><img src="img/linkedin.png" alt="Image cliquable pour rejoindre ma page Linkedin" style="width:40px"/></a>
+      <a href=""><img src="img/twitter.png" alt="Image cliquable pour rejoindre mon Twitter" style="width:40px"/></a>
+    </div>
+    <div class="copyright">
+      <h4>© 2018, JESSY FOUACE.</h4>
+    </div>
+    <div class="utility">
+      <h4>Liens Utiles</h4>
+      <a href="" download="cvjessy.pdf">Mon CV</a>
     </div>
   </div>
-</section>
-
-<!-- ##############################################
-    ################################################
-    ############ Start of fourth page ##############
-    ################################################
-     ############################################## -->
-
-<section>
-
-  <h3 id="contactme">
-    <span>Me Contacter</span>
-  </h3>
-  <div class="allform">
-    <div class="startform">
-      <label class ="labelforrestriction">*Champ Obligatoire</label>
-      <input class="name" type="text" placeholder="Nom/Prénom *"/>
-      <input class="phone" type="tel" placeholder="Téléphone"/>
-      <input class="mail" type="email" placeholder="E-Mail *"/>
-    </div>
-    <textarea  class="sujet" name="le-message" rows="10" cols="20" placeholder="Sujet *"></textarea>
-    <input class="envoyerbutton" type="submit" value="Envoyer"/>
-  </div>
-</section>
-
-<!-- #########################################
-    ###########################################
-    ############ Start of Footer ##############
-    ###########################################
-     ######################################### -->
-<footer>
-<!--
-  <a href="" download="robots.txt">Télécharger mon CV</a>
--->
-
-<div class="allfooterleft">
-  <div class="imgforleftfooter">
-    <h4>Me rejoindre</h4>
-    <a href=""><img src="img/github.png" alt="Image cliquable pour rejoindre ma page github" style="width:40px"/></a>
-    <a href=""><img src="img/linkedin.png" alt="Image cliquable pour rejoindre ma page Linkedin" style="width:40px"/></a>
-    <a href=""><img src="img/twitter.png" alt="Image cliquable pour rejoindre mon Twitter" style="width:40px"/></a>
-  </div>
-  <div class="copyright">
-    <h4>© 2018, JESSY FOUACE.</h4>
-  </div>
-  <div class="utility">
-    <h4>Liens Utiles</h4>
-    <a href="" download="cvjessy.pdf">Mon CV</a>
-  </div>
-</div>
 
 </footer>
 
 </body>
-
 </html>
