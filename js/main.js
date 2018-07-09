@@ -1,4 +1,3 @@
-
 /* SOURCE OF THE CODE: https://wprock.fr/blog/smooth-scrolling-jquery/ */
 
 $(function() {

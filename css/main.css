@@ -303,8 +303,10 @@ textarea {
 header {
   width: 100%;
   height: 100vh;
-  background-image: url("../img/fondheader.jpg");
+  background-color: #1D1E18;
+  background-repeat: no-repeat;
   color: white;
+  background-size: cover;
 }
 
 .nav {
@@ -322,8 +324,8 @@ header {
 
 .nav a {
   text-decoration: none;
-  color: black;
-  margin-left: 10px;
+  color: #ACADAB;
+  padding-left: 10px;
   padding-top: 100%;
   padding-bottom: 12px;
   font-weight: bold;
@@ -358,7 +360,7 @@ header {
 /* ############## START MIDDLE PAGE ############### */
 
 h3 {
-  font-size: 15px;
+  font-size: 18px;
   border-bottom: 1px solid lightgrey;
   display: block;
   width: 90%;
@@ -503,6 +505,43 @@ h3 span {
   margin-top: 10px;
 }
 
+.utility a {
+  background-color: #d24d57;
+  border-radius: 3px;
+  text-decoration: none;
+  color: white;
+  padding: 2px;
+  width: 100%;
+}
+
+h4 {
+  color: white;
+  vertical-align: top;
+}
+
+.imgforleftfooter,
+.utility,
+.copyright {
+  width: 48%;
+  display: inline-block;
+  text-align: center;
+}
+
+.utility {
+  vertical-align: top;
+}
+
+.allfooterleft {
+  width: 84%;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+input {
+  cursor: pointer;
+}
+
 /* ############## START FOOTER PAGE ############### */
 /* ############## START FOOTER PAGE ############### */
 /* ############## START FOOTER PAGE ############### */
@@ -511,6 +550,25 @@ h3 span {
 /* ############## START FOOTER PAGE ############### */
 /* ############## START FOOTER PAGE ############### */
 
-@media screen and (min-width: 767px) {
+footer {
+  background-color: #1D1E18;
+  margin-top: 30px;
+}
 
+@media screen and (max-width: 767px) {
+    .copyright {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+  .imgforleftfooter,
+  .utility,
+  .copyright {
+    width: 30%;
+  }
+  .copyright {
+    vertical-align: bottom;
+  }
 }
