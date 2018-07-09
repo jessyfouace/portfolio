@@ -385,16 +385,6 @@ h3 span {
   background-color: #f8f8f8;
 }
 
-/* ############## START ABOUT PAGE ############### */
-/* ############## START ABOUT PAGE ############### */
-/* ############## START ABOUT PAGE ############### */
-/* ############## START ABOUT PAGE ############### */
-/* ############## START ABOUT PAGE ############### */
-/* ############## START ABOUT PAGE ############### */
-/* ############## START ABOUT PAGE ############### */
-
-
-
 /* ############## START REALISATION PAGE ############### */
 /* ############## START REALISATION PAGE ############### */
 /* ############## START REALISATION PAGE ############### */
@@ -426,7 +416,15 @@ h3 span {
   margin: auto;
   margin-top: 40px;
   margin-bottom: 20px;
+}
+
+.firstrealisations,
+.secondrealisations {
   border-bottom: 1px solid lightgrey;
+}
+
+.thirdrealisations {
+  border-bottom: 1px solid #f8f8f8;
 }
 
 .firstrealisations img:hover,
@@ -451,6 +449,24 @@ h3 span {
   margin-top: 30px;
 }
 
+/* ############## START ABOUT PAGE ############### */
+/* ############## START ABOUT PAGE ############### */
+/* ############## START ABOUT PAGE ############### */
+/* ############## START ABOUT PAGE ############### */
+/* ############## START ABOUT PAGE ############### */
+/* ############## START ABOUT PAGE ############### */
+/* ############## START ABOUT PAGE ############### */
+
+.textaboutme {
+  width: 90%;
+  display: block;
+  margin: auto;
+  padding: 30px 0px 20px 0px;
+  text-align: center;
+  line-height: 25px;
+}
+
+
 /* ############## START BLOG PAGE ############### */
 /* ############## START BLOG PAGE ############### */
 /* ############## START BLOG PAGE ############### */
@@ -458,6 +474,21 @@ h3 span {
 /* ############## START BLOG PAGE ############### */
 /* ############## START BLOG PAGE ############### */
 /* ############## START BLOG PAGE ############### */
+
+
+.allmyblog {
+  width: 90%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.allmyblog img,
+.allmyblog p {
+  margin-top: 30px;
+}
+
 
 
 
@@ -506,10 +537,10 @@ h3 span {
 }
 
 .utility a {
-  background-color: #d24d57;
+  background-color: #ffffff;
   border-radius: 3px;
   text-decoration: none;
-  color: white;
+  color: #d24d57;
   padding: 2px;
   width: 100%;
 }
@@ -555,6 +586,10 @@ footer {
   margin-top: 30px;
 }
 
+h4 {
+  padding: 15px 0px 20px 0px;
+}
+
 @media screen and (max-width: 767px) {
     .copyright {
       display: none;
@@ -571,4 +606,23 @@ footer {
   .copyright {
     vertical-align: bottom;
   }
+
+  .utility a {
+    padding: 3px 5px 3px 5px;
+  }
+
+  .nav li {
+    font-size: 20px;
+  }
+
+  .allmyblog {
+    display: inline-block;
+  }
+
+  .leftimage,
+  .righttext {
+    width: 48%;
+    display: inline-block;
+  }
+
 }
