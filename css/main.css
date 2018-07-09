@@ -329,6 +329,13 @@ header {
 /* ############## START MIDDLE PAGE ############### */
 /* ############## START MIDDLE PAGE ############### */
 
+input[type="button"]:hover {
+
+    background-color: #d24d57;
+    color: white;
+
+}
+
 h3 {
   font-size: 18px;
   border-bottom: 1px solid lightgrey;
