@@ -9,6 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/main.css">
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -39,8 +40,9 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#toppage">Accueil</a></li>
+          <li><a href="#realisation">Réalisations</a></li>
           <li><a href="#aboutme">A Propos</a></li>
-          <li><a href="#myblog">Galerie</a></li>
+          <li><a href="#myblog">Parcours</a></li>
           <li><a href="#contactme">Contact</a></li>
         </ul>
       </div>
@@ -48,7 +50,7 @@
   </nav>
 
   <div class="middleheader">
-    <h1>Jessy Fouace</h1>
+    <img src="img/fondheader2.png" alt="mon logo marquer Jessy fouace"/>
     <h2>Développeur Web Junior</h2>
   </div>
 
@@ -65,31 +67,140 @@
     <h3 id="realisation">
       <span>Mes Réalisations</span>
     </h3>
-  <div class="allrealisations">
-    <div class="firstrealisations">
-      <a href="img/archi.png" target="_blank"><img src="img/archi.png" alt="Image d'un de mes travail (faire le front de la page archiduchesse)" style="width:80%"/></a>
-      <div class="buttonforarticle">
-        <input type="button" value="Répo" onclick="window.location.href='https://github.com/jessyfouace/archiduchesse'"/>
-        <input type="button" value="Voir" onclick="window.location.href='https://jessyfouace.github.io/archiduchesse/'"/>
-      </div>
-    </div>
+    <div class="firstlinemodal">
+        <!-- Button trigger modal -->
+        <div class="card" data-toggle="modal" data-target="#exampleModal" style="width: 18rem;">
+          <img class="card-img-top" src="img/archi.png" style="width:300px; height:180px" alt="Card image of my project archiduchesse"/>
+          <div class="card-body">
+            <h5 class="card-title">Archiduchesse</h5>
+            <p class="card-text">Reconstitution du site Archiduchesse...</p>
+            <button type="button" class="btn btn-primary">
+              Voir plus
+            </button>
+          </div>
+        </div>
 
-    <div class="secondrealisations">
-      <a href="img/leboncoin.png" target="_blank"><img src="img/leboncoin.png" alt="Image d'un de mes travail de reconstitution du site leboncoin" style="width:80%"/></a>
-      <div class="buttonforarticle">
-        <input type="button" value="Répo" onclick="window.location.href='https://github.com/jessyfouace/semaine2leboncoin'"/>
-        <input type="button" value="Voir" onclick="window.location.href='https://jessyfouace.github.io/semaine2leboncoin/'"/>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Archiduchesse</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <a href="img/archi.png" target="_blank"><img src="img/archi.png" alt="Image d'un de mes travail (faire le front de la page archiduchesse)" style="width:80%"/></a>
+              <div class="imgformodal">
+                <h6>Languages / Framework utilisés:</h2>
+                <i class="fab fa-html5 fa-1x">HTML 5</i>
+                <i class="fab fa-css3-alt fa-1x">CSS 3</i>
+              </div>
+              <br>
+              <p>Projet de reconstitution du site l'Archiduchesse à la formation SIMPLON Lesquin (Durée du projet 1 semaines).
+                <div class="buttonforarticle">
+                  <input type="button" value="Github" onclick="window.location.href='https://github.com/jessyfouace/archiduchesse'"/>
+                  <input type="button" value="Voir" onclick="window.location.href='https://jessyfouace.github.io/archiduchesse/'"/>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div class="thirdrealisations">
-      <a href="img/coiffeur.png" target="_blank"><img src="img/coiffeur.png" alt="Image d'un travail de groupe, dont j'ai fais la partie contact" style="width:80%"/></a>
-      <div class="buttonforarticle">
-        <input type="button" value="Répo" onclick="window.location.href='https://github.com/YesWeWeb/YesWeTatoo'"/>
-        <input type="button" value="Voir" onclick="window.location.href='https://yesweweb.github.io/YesWeTatoo/'"/>
+      <!--############## SECOND MODAL #############-->
+
+      <!-- Button trigger modal -->
+      <div class="card" data-toggle="modal" data-target="#exampleModal2" style="width: 18rem;">
+        <img class="card-img-top" src="img/leboncoin.png" style="width:300px; height:180px" alt="Card image of my project archiduchesse"/>
+        <div class="card-body">
+          <h5 class="card-title">LeBonCoin</h5>
+          <p class="card-text">Reconstitution du site LeBonCoin...</p>
+          <button type="button" class="btn btn-primary">
+            Voir plus
+          </button>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">LeBonCoin</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <a href="img/leboncoin.png" target="_blank"><img src="img/leboncoin.png" alt="Image d'un de mes travail de reconstitution du site leboncoin" style="width:80%"/></a>
+              <div class="imgformodal">
+                <h6>Languages / Framework utilisés:</h2>
+                  <i class="fab fa-html5 fa-1x">HTML 5</i>
+                  <i class="fab fa-css3-alt fa-1x">CSS 3</i>
+                </div>
+                <br>
+                <p>Projet de reconsitution du site leboncoin utilisation de framework interdit. (Durée du projet 1 semaine).
+              <div class="buttonforarticle">
+                <input type="button" value="Github" onclick="window.location.href='https://github.com/jessyfouace/semaine2leboncoin'"/>
+                <input type="button" value="Voir" onclick="window.location.href='https://jessyfouace.github.io/semaine2leboncoin/'"/>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- ########### THIRD MODAL ########### -->
+
+      <!-- Button trigger modal -->
+      <div class="card" data-toggle="modal" data-target="#exampleModal3" style="width: 18rem;">
+        <img class="card-img-top" src="img/coiffeur.png" style="width:300px; height:180px" alt="Card image of my project archiduchesse"/>
+        <div class="card-body">
+          <h5 class="card-title">Yes We Tatoo</h5>
+          <p class="card-text">Création d'un site de Tatouage...</p>
+          <button type="button" class="btn btn-primary">
+            Voir plus
+          </button>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Yes We Tatoo</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <a href="img/coiffeur.png" target="_blank"><img src="img/coiffeur.png" alt="Image d'un travail de groupe, dont j'ai fais la partie contact" style="width:80%"/></a>
+              <div class="imgformodal">
+                <h6>Languages / Framework utilisés:</h2>
+                  <i class="fab fa-html5 fa-1x">HTML 5</i>
+                  <i class="fab fa-css3-alt fa-1x">CSS 3</i>
+                </div>
+                <br>
+                <p>Projet de groupe à 3 personnes de création d'un site de coiffeur utilisation de framework interdit. (Durée du projet 1 semaine).
+              <div class="buttonforarticle">
+                <input type="button" value="Github" onclick="window.location.href='https://github.com/YesWeWeb/YesWeTatoo'"/>
+                <input type="button" value="Voir" onclick="window.location.href='https://yesweweb.github.io/YesWeTatoo/'"/>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
-  </div>
   </section>
 
   <!-- #########################################
@@ -143,6 +254,7 @@
     <h3 id="contactme">
       <span>Me Contacter</span>
     </h3>
+  <div class="widthallcontact">
     <div class="allform">
       <div class="startform">
         <label class ="labelforrestriction">*Champ Obligatoire</label>
@@ -153,6 +265,18 @@
       <textarea  class="sujet" name="le-message" rows="10" cols="20" placeholder="Sujet *"></textarea>
       <input class="envoyerbutton" type="submit" value="Envoyer"/>
     </div>
+
+    <div class="contactcv">
+      <img src="img/fondheader2.png" alt="mon logo marquer Jessy fouace"/>
+      <div class="utility">
+        <h4>Liens Utiles</h4>
+        <a href="" download="cvjessy.pdf">Mon CV</a>
+      </div>
+      <a href="https://github.com/jessyfouace" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+      <a href="https://www.linkedin.com/in/jessy-fouace-89a5a2165/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+      <a href=""><i class="fab fa-twitter-square fa-3x"></i></a>
+    </div>
+  </div>
   </section>
 
   <!-- #########################################
@@ -167,10 +291,10 @@
 
   <div class="allfooterleft">
     <div class="imgforleftfooter">
-      <h4>Me rejoindre</h4>
-      <a href=""><img src="img/github.png" alt="Image cliquable pour rejoindre ma page github" style="width:40px"/></a>
-      <a href=""><img src="img/linkedin.png" alt="Image cliquable pour rejoindre ma page Linkedin" style="width:40px"/></a>
-      <a href=""><img src="img/twitter.png" alt="Image cliquable pour rejoindre mon Twitter" style="width:40px"/></a>
+      <h4>Rejoins Moi !</h4>
+      <a href="https://github.com/jessyfouace" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+      <a href="https://www.linkedin.com/in/jessy-fouace-89a5a2165/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+      <i class="fab fa-twitter-square fa-3x"></i>
     </div>
     <div class="copyright">
       <h4>© 2018, JESSY FOUACE.</h4>
