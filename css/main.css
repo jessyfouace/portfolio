@@ -566,8 +566,8 @@ h4 {
     }
 
     .card {
-      margin: auto;
       display: block;
+      margin: auto;
       text-align: center;
       margin: 40px 0px 20px 0px;
       cursor: pointer;
@@ -679,7 +679,6 @@ h4 {
   }
 
 }
-
 
 .navbar {
   margin-bottom: 0;
