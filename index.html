@@ -257,13 +257,15 @@
   <div class="widthallcontact">
     <div class="allform">
       <div class="startform">
-        <label class ="labelforrestriction">*Champ Obligatoire</label>
-        <input class="name" type="text" placeholder="Nom/Prénom *"/>
-        <input class="phone" type="tel" placeholder="Téléphone"/>
-        <input class="mail" type="email" placeholder="E-Mail *"/>
-      </div>
-      <textarea  class="sujet" name="le-message" rows="10" cols="20" placeholder="Sujet *"></textarea>
-      <input class="envoyerbutton" type="submit" value="Envoyer"/>
+        <form>
+          <label class ="labelforrestriction">*Champ Obligatoire</label>
+          <input class="name" type="text" placeholder="Nom/Prénom *" required="Remplissez ce champ"/>
+          <input class="phone" type="tel" placeholder="Téléphone"/>
+          <input class="mail" type="email" placeholder="E-Mail *" required="Remplissez ce champ"/>
+        </div>
+        <textarea  class="sujet" name="le-message" rows="10" cols="20" placeholder="Sujet *" required="Remplissez ce champ"></textarea>
+        <input class="envoyerbutton" type="submit" value="Envoyer"/>
+      </form>
     </div>
 
     <div class="contactcv">
