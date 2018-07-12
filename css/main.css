@@ -574,6 +574,15 @@ h4 {
       cursor: pointer;
     }
 
+    .card {
+      display: block;
+      margin: auto;
+      margin-top: 45px;
+    }
+
+    .btn-primary {
+      margin-bottom: 20px;
+    }
 
     .firstlinemodal {
       width: 90%;
