@@ -358,6 +358,7 @@ h3 span {
 }
 
 .firstsection,
+.secondlinemodal,
 .thirdsection,
 .firstsection span,
 .thirdsection span{
@@ -396,7 +397,8 @@ h3 span {
   cursor: pointer;
 }
 
-.firstlinemodal {
+.firstlinemodal,
+.secondlinemodal {
   width: 90%;
   margin: auto;
   display: flex;
@@ -413,6 +415,23 @@ h3 span {
  text-align: center;
 }
 
+.imgformodal,
+.frameworkformodal {
+  width: 48%;
+  display: inline-block;
+}
+
+.frameworkbootstrap {
+  color:#7a00b7;
+}
+
+.fa-html5 {
+  color:#eb4420;
+}
+
+.fa-css3-alt {
+  color:#026dbb;
+}
 /* ############## START ABOUT PAGE ############### */
 /* ############## START ABOUT PAGE ############### */
 /* ############## START ABOUT PAGE ############### */
@@ -584,7 +603,8 @@ h4 {
       margin-bottom: 20px;
     }
 
-    .firstlinemodal {
+    .firstlinemodal,
+    .secondlinemodal {
       width: 90%;
       margin: auto;
       display: block;
