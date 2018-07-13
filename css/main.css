@@ -395,6 +395,15 @@ h3 span {
   text-align: center;
   margin: 50px 0px 50px 0px;
   cursor: pointer;
+  background-color: #ffffff;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card-body button{
+  margin-bottom: 20px;
 }
 
 .firstlinemodal,
@@ -405,10 +414,6 @@ h3 span {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-}
-
-.card-img-top:hover {
-  opacity: 0.5;
 }
 
 .modal-body {
@@ -556,10 +561,9 @@ i {
   color: #d24d57;
 }
 
-input {
+.envoyerbutton {
   cursor: pointer;
 }
-
 /* ############## START FOOTER PAGE ############### */
 /* ############## START FOOTER PAGE ############### */
 /* ############## START FOOTER PAGE ############### */
@@ -597,6 +601,11 @@ h4 {
       display: block;
       margin: auto;
       margin-top: 45px;
+      background-color: inherit;
+    }
+
+    .card:hover {
+      transform:scale(1);
     }
 
     .btn-primary {
@@ -645,7 +654,7 @@ h4 {
 
   .startform input,
   .allform textarea {
-    width: 100%;
+    width: 75%;
   }
 
   .allform {
@@ -683,7 +692,7 @@ h4 {
   }
 
   .widthallcontact {
-    width: 90%;
+    width: 100%;
     display: block;
     margin: auto;
   }
