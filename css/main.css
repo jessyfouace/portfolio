@@ -360,7 +360,7 @@ h3 span {
 .firstsection,
 .secondlinemodal,
 .thirdsection,
-.firstsection span,
+.firstsection h3 span,
 .thirdsection span{
   background-color: #f8f8f8;
 }
