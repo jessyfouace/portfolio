@@ -97,21 +97,443 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   * {
+     margin: 0;
+     padding: 0;
+     font-family: "Source code pro", Verdana, sans-serif;
+   }
+
+   header {
+     width: 100%;
+     height: 100vh;
+     background-color: #1D1E18;
+     background-repeat: no-repeat;
+     color: white;
+     background-size: cover;
+     font-family: "Source code pro", Verdana, sans-serif;
+   }
+
+   .navbar-inverse {
+     position: fixed;
+     width: 100%;
+     z-index: 1000;
+   }
+
+   .middleheader {
+     width: 77%;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     font-size: 12px;
+   }
+
+   .middleheader h2 {
+     padding-bottom: 20px;
+   }
+
+   /* ############## START MIDDLE PAGE ############### */
+   /* ############## START MIDDLE PAGE ############### */
+   /* ############## START MIDDLE PAGE ############### */
+   /* ############## START MIDDLE PAGE ############### */
+   /* ############## START MIDDLE PAGE ############### */
+   /* ############## START MIDDLE PAGE ############### */
+   /* ############## START MIDDLE PAGE ############### */
+
+   input[type="button"]:hover {
+
+       background-color: #d24d57;
+       color: white;
+
+   }
+
+   h3 {
+     font-size: 18px;
+     border-bottom: 1px solid lightgrey;
+     display: block;
+     width: 90%;
+     margin: auto;
+     padding: 46px 0px 0px 0px;
+   }
+
+   h3 span {
+     background-color: white;
+     top: 10px;
+     position: relative;
+     display: block;
+     margin: auto;
+     text-align: center;
+     width: 150px;
+     color: #d24d57;
+   }
+
+   .firstsection,
+   .secondlinemodal,
+   .thirdsection,
+   .firstsection h3 span,
+   .thirdsection span{
+     background-color: #f8f8f8;
+   }
+
+   /* ############## START REALISATION PAGE ############### */
+   /* ############## START REALISATION PAGE ############### */
+   /* ############## START REALISATION PAGE ############### */
+   /* ############## START REALISATION PAGE ############### */
+   /* ############## START REALISATION PAGE ############### */
+   /* ############## START REALISATION PAGE ############### */
+   /* ############## START REALISATION PAGE ############### */
+
+   .buttonforarticle input {
+     border: 1px solid #d24d57;
+     border-radius: 3px;
+     background-color: inherit;
+     padding: 1px;
+     width: 20%;
+     color: #d24d57;
+     margin-top: 20px;
+   }
+
+   .buttonforarticle {
+     width: 100%;
+     text-align: center;
+     margin: 15px 0px 15px 0px;
+   }
+
+   .card {
+     margin: auto;
+     display: inline-block;
+     text-align: center;
+     margin: 50px 0px 50px 0px;
+     cursor: pointer;
+     background-color: #ffffff;
+   }
+
+   .card:hover {
+     transform: scale(1.1);
+   }
+
+   .card-body button{
+     margin-bottom: 20px;
+   }
+
+   .firstlinemodal,
+   .secondlinemodal {
+     width: 90%;
+     margin: auto;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: space-between;
+   }
+
+   .modal-body {
+    text-align: center;
+   }
+
+   .imgformodal,
+   .frameworkformodal {
+     width: 48%;
+     display: inline-block;
+   }
+
+   .frameworkbootstrap {
+     color:#7a00b7;
+   }
+
+   .fa-html5 {
+     color:#eb4420;
+   }
+
+   .fa-css3-alt {
+     color:#026dbb;
+   }
+   /* ############## START ABOUT PAGE ############### */
+   /* ############## START ABOUT PAGE ############### */
+   /* ############## START ABOUT PAGE ############### */
+   /* ############## START ABOUT PAGE ############### */
+   /* ############## START ABOUT PAGE ############### */
+   /* ############## START ABOUT PAGE ############### */
+   /* ############## START ABOUT PAGE ############### */
+
+   .textaboutme {
+     width: 90%;
+     display: block;
+     margin: auto;
+     padding: 30px 0px 20px 0px;
+     text-align: center;
+     line-height: 25px;
+   }
+
+
+   /* ############## START BLOG PAGE ############### */
+   /* ############## START BLOG PAGE ############### */
+   /* ############## START BLOG PAGE ############### */
+   /* ############## START BLOG PAGE ############### */
+   /* ############## START BLOG PAGE ############### */
+   /* ############## START BLOG PAGE ############### */
+   /* ############## START BLOG PAGE ############### */
+
+
+   .allmyblog {
+     width: 90%;
+     display: block;
+     margin: auto;
+     text-align: center;
+     margin-bottom: 30px;
+   }
+
+   .allmyblog img,
+   .allmyblog p {
+     margin-top: 30px;
+   }
 
 
 
 
+   /* ############## START FORMULAIRE PAGE ############### */
+   /* ############## START FORMULAIRE PAGE ############### */
+   /* ############## START FORMULAIRE PAGE ############### */
+   /* ############## START FORMULAIRE PAGE ############### */
+   /* ############## START FORMULAIRE PAGE ############### */
+   /* ############## START FORMULAIRE PAGE ############### */
+   /* ############## START FORMULAIRE PAGE ############### */
 
+   .allform {
+     width: 90%;
+     margin: auto;
+     text-align: center;
+   }
 
+   .allform {
+     margin-top: 20px;
+   }
 
+   .startform input,
+   .allform textarea {
+     background-color: white;
+     border: 1px solid #d24d57;
+     border-radius: 6px;
+     color: grey;
+     padding: 5px 4px 5px 10px;
+     width: 80%;
+     display: block;
+     margin: auto;
+     margin-top: 20px;
+   }
 
+   .envoyerbutton {
+     width: 30%;
+     max-width: 200px;
+     background-color: #d24d57;
+     border: none;
+     border-radius: 6px;
+     color: white;
+     padding: 5px 4px 5px 10px;
+     display: block;
+     margin: auto;
+     margin-top: 10px;
+   }
 
+   .utility a {
+     background-color: #ffffff;
+     border-radius: 3px;
+     text-decoration: none;
+     color: #d24d57;
+     padding: 2px;
+     width: 100%;
+   }
 
+   h4 {
+     color: white;
+     vertical-align: top;
+   }
 
+   .imgforleftfooter,
+   .utility,
+   .copyright {
+     width: 48%;
+     display: inline-block;
+     text-align: center;
+   }
 
+   .utility {
+     vertical-align: top;
+   }
 
+   .allfooterleft {
+     width: 84%;
+     display: block;
+     margin: auto;
+     text-align: center;
+   }
 
+   i {
+     color: #d24d57;
+   }
 
+   .envoyerbutton {
+     cursor: pointer;
+   }
+   /* ############## START FOOTER PAGE ############### */
+   /* ############## START FOOTER PAGE ############### */
+   /* ############## START FOOTER PAGE ############### */
+   /* ############## START FOOTER PAGE ############### */
+   /* ############## START FOOTER PAGE ############### */
+   /* ############## START FOOTER PAGE ############### */
+   /* ############## START FOOTER PAGE ############### */
+
+   footer {
+     background-color: #1D1E18;
+     margin-top: 30px;
+     position: absolute;
+     width: 100%;
+   }
+
+   h4 {
+     padding: 15px 0px 0px 0px;
+   }
+
+   @media screen and (max-width: 767px) {
+       .copyright,
+       .contactcv {
+         display: none;
+       }
+
+       .card {
+         display: block;
+         margin: auto;
+         text-align: center;
+         margin: 40px 0px 20px 0px;
+         cursor: pointer;
+       }
+
+       .card {
+         display: block;
+         margin: auto;
+         margin-top: 45px;
+         background-color: inherit;
+       }
+
+       .card:hover {
+         transform:scale(1);
+       }
+
+       .btn-primary {
+         margin-bottom: 20px;
+       }
+
+       .firstlinemodal,
+       .secondlinemodal {
+         width: 90%;
+         margin: auto;
+         display: block;
+         flex-direction: row;
+         flex-wrap: nowrap;
+         justify-content: space-between;
+       }
+   }
+
+   @media screen and (min-width: 768px) {
+
+     .imgforleftfooter,
+     .utility,
+     .copyright {
+       width: 30%;
+     }
+     .copyright {
+       vertical-align: bottom;
+     }
+
+     .utility a {
+       padding: 3px 5px 3px 5px;
+     }
+
+     .nav li {
+       font-size: 20px;
+     }
+
+     .allmyblog {
+       display: inline-block;
+     }
+
+     .leftimage,
+     .righttext {
+       width: 48%;
+       display: inline-block;
+     }
+
+     .startform input,
+     .allform textarea {
+       width: 75%;
+     }
+
+     .allform {
+       width: 48%;
+       display: inline-block;
+     }
+
+     .contactcv {
+       width: 48%;
+       display: inline-block;
+       text-align: center;
+       vertical-align: top;
+       margin-top: 90px;
+     }
+
+     .contactcv img,
+     .contactcv .utility,
+     .contactcv i {
+       display: block;
+       margin: auto;
+     }
+
+     .contactcv img,
+     .contactcv .utility {
+       padding-top: 30px;
+     }
+
+     .contactcv h4 {
+       color: #1d1e18;
+     }
+
+     .contactcv i {
+       display: inline-block;
+       margin-top: 40px;
+     }
+
+     .widthallcontact {
+       width: 100%;
+       display: block;
+       margin: auto;
+     }
+
+     .contactcv .utility a {
+      background-color: white;
+      border: 1px solid #d24d57;
+      color: #d24d57;
+      padding: 10px 25px 10px 25px;
+     }
+
+     .contactcv .utility h4 {
+       padding-bottom: 20px;
+     }
+
+     i {
+       cursor: pointer;
+     }
+
+     .contactcv .utility a:hover {
+       background-color: #d24d57;
+       color: white;
+     }
+
+   }
+
+   .navbar {
+     margin-bottom: 0;
+     border-radius: 0;
+   }
 
 /* ==========================================================================
    Helper classes
@@ -284,442 +706,4 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Source code pro", Verdana, sans-serif;
-}
-
-header {
-  width: 100%;
-  height: 100vh;
-  background-color: #1D1E18;
-  background-repeat: no-repeat;
-  color: white;
-  background-size: cover;
-  font-family: "Source code pro", Verdana, sans-serif;
-}
-
-.navbar-inverse {
-  position: fixed;
-  width: 100%;
-  z-index: 1000;
-}
-
-.middleheader {
-  width: 77%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-size: 12px;
-}
-
-.middleheader h2 {
-  padding-bottom: 20px;
-}
-
-/* ############## START MIDDLE PAGE ############### */
-/* ############## START MIDDLE PAGE ############### */
-/* ############## START MIDDLE PAGE ############### */
-/* ############## START MIDDLE PAGE ############### */
-/* ############## START MIDDLE PAGE ############### */
-/* ############## START MIDDLE PAGE ############### */
-/* ############## START MIDDLE PAGE ############### */
-
-input[type="button"]:hover {
-
-    background-color: #d24d57;
-    color: white;
-
-}
-
-h3 {
-  font-size: 18px;
-  border-bottom: 1px solid lightgrey;
-  display: block;
-  width: 90%;
-  margin: auto;
-  padding: 46px 0px 0px 0px;
-}
-
-h3 span {
-  background-color: white;
-  top: 10px;
-  position: relative;
-  display: block;
-  margin: auto;
-  text-align: center;
-  width: 150px;
-  color: #d24d57;
-}
-
-.firstsection,
-.secondlinemodal,
-.thirdsection,
-.firstsection h3 span,
-.thirdsection span{
-  background-color: #f8f8f8;
-}
-
-/* ############## START REALISATION PAGE ############### */
-/* ############## START REALISATION PAGE ############### */
-/* ############## START REALISATION PAGE ############### */
-/* ############## START REALISATION PAGE ############### */
-/* ############## START REALISATION PAGE ############### */
-/* ############## START REALISATION PAGE ############### */
-/* ############## START REALISATION PAGE ############### */
-
-.buttonforarticle input {
-  border: 1px solid #d24d57;
-  border-radius: 3px;
-  background-color: inherit;
-  padding: 1px;
-  width: 20%;
-  color: #d24d57;
-  margin-top: 20px;
-}
-
-.buttonforarticle {
-  width: 100%;
-  text-align: center;
-  margin: 15px 0px 15px 0px;
-}
-
-.card {
-  margin: auto;
-  display: inline-block;
-  text-align: center;
-  margin: 50px 0px 50px 0px;
-  cursor: pointer;
-  background-color: #ffffff;
-}
-
-.card:hover {
-  transform: scale(1.1);
-}
-
-.card-body button{
-  margin-bottom: 20px;
-}
-
-.firstlinemodal,
-.secondlinemodal {
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
-
-.modal-body {
- text-align: center;
-}
-
-.imgformodal,
-.frameworkformodal {
-  width: 48%;
-  display: inline-block;
-}
-
-.frameworkbootstrap {
-  color:#7a00b7;
-}
-
-.fa-html5 {
-  color:#eb4420;
-}
-
-.fa-css3-alt {
-  color:#026dbb;
-}
-/* ############## START ABOUT PAGE ############### */
-/* ############## START ABOUT PAGE ############### */
-/* ############## START ABOUT PAGE ############### */
-/* ############## START ABOUT PAGE ############### */
-/* ############## START ABOUT PAGE ############### */
-/* ############## START ABOUT PAGE ############### */
-/* ############## START ABOUT PAGE ############### */
-
-.textaboutme {
-  width: 90%;
-  display: block;
-  margin: auto;
-  padding: 30px 0px 20px 0px;
-  text-align: center;
-  line-height: 25px;
-}
-
-
-/* ############## START BLOG PAGE ############### */
-/* ############## START BLOG PAGE ############### */
-/* ############## START BLOG PAGE ############### */
-/* ############## START BLOG PAGE ############### */
-/* ############## START BLOG PAGE ############### */
-/* ############## START BLOG PAGE ############### */
-/* ############## START BLOG PAGE ############### */
-
-
-.allmyblog {
-  width: 90%;
-  display: block;
-  margin: auto;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.allmyblog img,
-.allmyblog p {
-  margin-top: 30px;
-}
-
-
-
-
-/* ############## START FORMULAIRE PAGE ############### */
-/* ############## START FORMULAIRE PAGE ############### */
-/* ############## START FORMULAIRE PAGE ############### */
-/* ############## START FORMULAIRE PAGE ############### */
-/* ############## START FORMULAIRE PAGE ############### */
-/* ############## START FORMULAIRE PAGE ############### */
-/* ############## START FORMULAIRE PAGE ############### */
-
-.allform {
-  width: 90%;
-  margin: auto;
-  text-align: center;
-}
-
-.allform {
-  margin-top: 20px;
-}
-
-.startform input,
-.allform textarea {
-  background-color: white;
-  border: 1px solid #d24d57;
-  border-radius: 6px;
-  color: grey;
-  padding: 5px 4px 5px 10px;
-  width: 80%;
-  display: block;
-  margin: auto;
-  margin-top: 20px;
-}
-
-.envoyerbutton {
-  width: 30%;
-  max-width: 200px;
-  background-color: #d24d57;
-  border: none;
-  border-radius: 6px;
-  color: white;
-  padding: 5px 4px 5px 10px;
-  display: block;
-  margin: auto;
-  margin-top: 10px;
-}
-
-.utility a {
-  background-color: #ffffff;
-  border-radius: 3px;
-  text-decoration: none;
-  color: #d24d57;
-  padding: 2px;
-  width: 100%;
-}
-
-h4 {
-  color: white;
-  vertical-align: top;
-}
-
-.imgforleftfooter,
-.utility,
-.copyright {
-  width: 48%;
-  display: inline-block;
-  text-align: center;
-}
-
-.utility {
-  vertical-align: top;
-}
-
-.allfooterleft {
-  width: 84%;
-  display: block;
-  margin: auto;
-  text-align: center;
-}
-
-i {
-  color: #d24d57;
-}
-
-.envoyerbutton {
-  cursor: pointer;
-}
-/* ############## START FOOTER PAGE ############### */
-/* ############## START FOOTER PAGE ############### */
-/* ############## START FOOTER PAGE ############### */
-/* ############## START FOOTER PAGE ############### */
-/* ############## START FOOTER PAGE ############### */
-/* ############## START FOOTER PAGE ############### */
-/* ############## START FOOTER PAGE ############### */
-
-footer {
-  background-color: #1D1E18;
-  margin-top: 30px;
-  position: absolute;
-  width: 100%;
-}
-
-h4 {
-  padding: 15px 0px 0px 0px;
-}
-
-@media screen and (max-width: 767px) {
-    .copyright,
-    .contactcv {
-      display: none;
-    }
-
-    .card {
-      display: block;
-      margin: auto;
-      text-align: center;
-      margin: 40px 0px 20px 0px;
-      cursor: pointer;
-    }
-
-    .card {
-      display: block;
-      margin: auto;
-      margin-top: 45px;
-      background-color: inherit;
-    }
-
-    .card:hover {
-      transform:scale(1);
-    }
-
-    .btn-primary {
-      margin-bottom: 20px;
-    }
-
-    .firstlinemodal,
-    .secondlinemodal {
-      width: 90%;
-      margin: auto;
-      display: block;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-content: space-between;
-    }
-}
-
-@media screen and (min-width: 768px) {
-
-  .imgforleftfooter,
-  .utility,
-  .copyright {
-    width: 30%;
-  }
-  .copyright {
-    vertical-align: bottom;
-  }
-
-  .utility a {
-    padding: 3px 5px 3px 5px;
-  }
-
-  .nav li {
-    font-size: 20px;
-  }
-
-  .allmyblog {
-    display: inline-block;
-  }
-
-  .leftimage,
-  .righttext {
-    width: 48%;
-    display: inline-block;
-  }
-
-  .startform input,
-  .allform textarea {
-    width: 75%;
-  }
-
-  .allform {
-    width: 48%;
-    display: inline-block;
-  }
-
-  .contactcv {
-    width: 48%;
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    margin-top: 90px;
-  }
-
-  .contactcv img,
-  .contactcv .utility,
-  .contactcv i {
-    display: block;
-    margin: auto;
-  }
-
-  .contactcv img,
-  .contactcv .utility {
-    padding-top: 30px;
-  }
-
-  .contactcv h4 {
-    color: #1d1e18;
-  }
-
-  .contactcv i {
-    display: inline-block;
-    margin-top: 40px;
-  }
-
-  .widthallcontact {
-    width: 100%;
-    display: block;
-    margin: auto;
-  }
-
-  .contactcv .utility a {
-   background-color: white;
-   border: 1px solid #d24d57;
-   color: #d24d57;
-   padding: 10px 25px 10px 25px;
-  }
-
-  .contactcv .utility h4 {
-    padding-bottom: 20px;
-  }
-
-  i {
-    cursor: pointer;
-  }
-
-  .contactcv .utility a:hover {
-    background-color: #d24d57;
-    color: white;
-  }
-
-}
-
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0;
 }
