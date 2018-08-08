@@ -194,6 +194,10 @@ textarea {
      margin-top: 20px;
    }
 
+   .fa-js-square {
+     color: #f7df1e;
+   }
+
    .buttonforarticle {
      width: 100%;
      text-align: center;
@@ -207,6 +211,8 @@ textarea {
      margin: 50px 0px 50px 0px;
      cursor: pointer;
      background-color: #ffffff;
+     width: 285px;
+     max-width: 300px;
    }
 
    .card:hover {
