@@ -1,5 +1,5 @@
 # Project Name
-Portfolio Jessy
+Memory Card Game by Jessy
 
 ## Contributing
 1. Fork it!
@@ -10,7 +10,7 @@ Portfolio Jessy
 
 ## Restriction
 
-Only can use Bootstrap CSS for framework, only did the front of the page.
+Nous devons créer un jeux de mémoire en cartes avec javascript et le DOM
 
 ## Creators
 

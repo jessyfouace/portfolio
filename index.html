@@ -1,22 +1,280 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <title>Jessy F</title>
-  <meta charset="utf-8">
-  <meta name="description" content="Portfolio de Jessy Fouace, développeur web Junior. Actuellement en formation à Simplon Lesquin">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<!doctype html>
+<html class="no-js" lang="fr">
 
+<head>
+  <title>Portfolio Jessy Fouace</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Portfolio de Jessy Fouace, Développeur Web Junior, former à Simplon Lesquin.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+  <link href="/bootstrap4-glyphicons/css/bootstrap-glyphicons.min.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!-- navbar  -->
+  <nav class="navbar navbar-expand-lg navbargrey position-absolute w-100">
+    <div class="col-auto mr-auto">
+      <img src="img/logo.png" alt="Logo marquer JF" class="navbar-brand"/>
+    </div>
+    <div id="navbarmore" class="col-auto">
+      <i class="fas fa-plus colorpurple fa-2x"></i>
+    </div>
+  </nav>
+  <div class="bgnoir position-relative" id="toppage">
+    <div class="noirbg text-center">
+      <p class="positiontext position-absolute font-weight-bold w-100">Jessy FOUACE<br><span class="colorpurple">Développeur Web Junior</span></p>
+    </div>
+  </div>
+  <!-- list for nav  -->
+  <ul id="listfornavbar" class="navbarlist list-unstyled position-absolute p-0 m-0 text-center topnavbar hoverlist font-weight-bold">
+    <li class="hoverlist p-1"><a href="#realisation" class="p-2">Réalisations</a></li>
+    <li class="hoverlist p-1"><a href="#about" class="p-2">A Propos</a></li>
+    <li class="hoverlist p-1"><a href="#contact" class="p-2">Contact</a></li>
+  </ul>
+
+  <!-- return top page  -->
+  <a href="#toppage"><i class="fas fa-chevron-circle-down fa-2x rotateimg2 position-fixed positiontoppage"></i></a>
+
+  <!-- realisation title -->
+  <section class="pt-1" id="realisation">
+    <h1 class="mt-5 p-0 col-10 mx-auto text-center">
+      <span class="titleportfolio pl-1 pr-1">Mes Réalisations</span>
+    </h1>
+    <div class="container col-10">
+      <div class="row col-12 m-0 p-0">
+        <div class="image col-xs-12 col-md-6 p-0 text-center p-0">
+          <img src="img/pokemonfigth.png" alt="Photo d'un de mes projet de création de jeu pokemon"/>
+        </div>
+        <div class="textbutton col-xs-12 col-md-6 p-0 pl-md-3">
+          <p><span class="font-weight-bold sizetitle">Création d'un jeu de Shifumi,</span><br>
+          Ce jeux est un remake de façon Pokemon avec un choix de pseudo un choix de dresseurs avoir des pokemon différent et un système de Bot.</p>
+          <ul class="list-unstyled listresponsiv">
+            <li>Languages:</li>
+            <li class="d-inline pr-1"><i class="fab fa-html5 fa-1x">HTML 5</i></li>
+            <li class="d-inline pr-1"><i class="fab fa-css3-alt fa-1x">CSS 3</i></li>
+            <li class="d-inline pr-1"><i class="fab fa-js-square fa-1x">JS</i></li>
+          </ul>
+          <ul class="list-unstyled pb-4 listresponsiv">
+            <li>Framework:</li>
+            <li class="d-inline bootstrap"><img src="img/bootstrap.png" alt="bootstrap"/>Bootstrap 4</li>
+          </ul>
+          <div class="text-center position-absolute centerbutton">
+            <input class="pl-2 pr-2 pt-1 pb-1" type="button" value="Voir" onclick="window.location.href='https://jessyfouace.github.io/pokemonfight/'">
+            <input class="pl-2 pr-2 pt-1 pb-1" type="button" value="Github" onclick="window.location.href='https://github.com/jessyfouace/pokemonfight'">
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-8 mx-auto mt-5 p-0 forborder">
+      </div>
+    </div>
+
+    <div class="container col-10 mt-5">
+      <div class="row col-12 m-0 p-0">
+        <div class="image col-xs-12 col-md-6 p-0 text-center p-0">
+          <img src="img/behance.png" alt="Photo d'un de mes projet de reproduction du site Behance"/>
+        </div>
+        <div class="textbutton col-xs-12 col-md-6 p-0 pl-md-3">
+          <p><span class="font-weight-bold sizetitle">Reproduction du site Behance,</span><br>
+          Projet de reproduction du site Behance, durée du projet 1 semaine</p>
+          <ul class="list-unstyled listresponsiv">
+            <li>Languages:</li>
+            <li class="d-inline pr-1"><i class="fab fa-html5 fa-1x">HTML 5</i></li>
+            <li class="d-inline pr-1"><i class="fab fa-css3-alt fa-1x">CSS 3</i></li>
+          </ul>
+          <ul class="list-unstyled pb-4 listresponsiv">
+            <li>Framework:</li>
+            <li class="d-inline bootstrap"><img src="img/bootstrap.png" alt="bootstrap"/>Bootstrap 4</li>
+          </ul>
+          <div class="text-center position-absolute centerbutton">
+            <input class="pl-2 pr-2 pt-1 pb-1" type="button" value="Voir" onclick="window.location.href='https://jessyfouace.github.io/behance/'">
+            <input class="pl-2 pr-2 pt-1 pb-1" type="button" value="Github" onclick="window.location.href='https://github.com/jessyfouace/behance'">
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-8 mx-auto mt-5 p-0 forborder">
+      </div>
+    </div>
+
+    <div class="container col-10 mt-5">
+      <div class="row col-12 m-0 p-0">
+        <div class="image col-xs-12 col-md-6 p-0 text-center p-0">
+          <img src="img/pba.png" alt="Photo d'un de mes projet de reproduction en groupe du site PBA"/>
+        </div>
+        <div class="textbutton col-xs-12 col-md-6 p-0 pl-md-3">
+          <p><span class="font-weight-bold sizetitle">Reproduction du site du Palais des Beau Arts Lille,</span><br>
+          Projet de reproduction du site Behance, durée du projet 1 semaine</p>
+          <ul class="list-unstyled listresponsiv">
+            <li>Languages:</li>
+            <li class="d-inline pr-1"><i class="fab fa-html5 fa-1x">HTML 5</i></li>
+            <li class="d-inline pr-1"><i class="fab fa-css3-alt fa-1x">CSS 3</i></li>
+          </ul>
+          <ul class="list-unstyled pb-4 listresponsiv">
+            <li>Framework:</li>
+            <li class="d-inline bootstrap"><img src="img/bootstrap.png" alt="bootstrap"/>Bootstrap 4</li>
+          </ul>
+          <div class="text-center position-absolute centerbutton">
+            <input class="pl-2 pr-2 pt-1 pb-1" type="button" value="Voir" onclick="window.location.href='https://yesweweb.github.io/PBA-Sofian-Jessy/'">
+            <input class="pl-2 pr-2 pt-1 pb-1" type="button" value="Github" onclick="window.location.href='https://github.com/YesWeWeb/PBA-Sofian-Jessy'">
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-8 mx-auto mt-5 p-0 forborder">
+      </div>
+    </div>
+
+    <div id="display1" class="container mt-5 col-10 displaynoneanim">
+      <div class="row col-12 m-0 p-0">
+        <div class="image col-xs-12 col-md-6 p-0 text-center p-0">
+          <img src="img/coiffeur.png" alt="Photo d'un de mes projet de création en groupe d'un site de coiffeur"/>
+        </div>
+        <div class="textbutton col-xs-12 col-md-6 p-0 pl-md-3">
+          <p><span class="font-weight-bold sizetitle">Création d'un site de tatouage en groupe,</span><br>
+            Projet de Création d'un site de tatouage en groupe de 3, durée du projet 1 semaine</p>
+          <ul class="list-unstyled listresponsiv">
+            <li>Languages:</li>
+            <li class="d-inline pr-1"><i class="fab fa-html5 fa-1x">HTML 5</i></li>
+            <li class="d-inline pr-1"><i class="fab fa-css3-alt fa-1x">CSS 3</i></li>
+          </ul>
+          <ul class="list-unstyled pb-4 listresponsiv">
+            <li>Framework:</li>
+            <li class="d-inline bootstrap"><img src="img/bootstrap.png" alt="bootstrap"/>Bootstrap 4</li>
+          </ul>
+          <div class="text-center position-absolute centerbutton">
+            <input class="pl-2 pr-2 pt-1 pb-1" type="button" value="Voir" onclick="window.location.href='https://yesweweb.github.io/YesWeTatoo/'">
+            <input class="pl-2 pr-2 pt-1 pb-1" type="button" value="Github" onclick="window.location.href='https://github.com/YesWeWeb/YesWeTatoo'">
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-8 mx-auto mt-5 p-0 forborder">
+      </div>
+    </div>
+
+    <div id="display2" class="container col-10 mt-5 displaynoneanim">
+      <div class="row col-12 m-0 p-0">
+        <div class="image col-xs-12 col-md-6 p-0 text-center p-0">
+          <img src="img/coach.png" alt="Photo d'un de mes projet de création d'un site de coaching"/>
+        </div>
+        <div class="textbutton col-xs-12 col-md-6 p-0 pl-md-3">
+          <p><span class="font-weight-bold sizetitle">Création d'un site de coaching,</span><br>
+            Projet de création d'un site de coaching avec bootstrap uniquement, durée du projet 1 semaine</p>
+          <ul class="list-unstyled listresponsiv">
+            <li>Languages:</li>
+            <li class="d-inline pr-1"><i class="fab fa-html5 fa-1x">HTML 5</i></li>
+          </ul>
+          <ul class="list-unstyled pb-4 listresponsiv">
+            <li>Framework:</li>
+            <li class="d-inline bootstrap"><img src="img/bootstrap.png" alt="bootstrap"/>Bootstrap 4</li>
+          </ul>
+          <div class="text-center position-absolute centerbutton">
+            <input class="pl-2 pr-2 pt-1 pb-1" type="button" value="Voir" onclick="window.location.href='https://jessyfouace.github.io/coach/index.html'">
+            <input class="pl-2 pr-2 pt-1 pb-1" type="button" value="Github" onclick="window.location.href='https://github.com/jessyfouace/coach'">
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-8 mx-auto mt-5 p-0 forborder">
+      </div>
+    </div>
+
+    <div id="display3" class="container col-10 mt-5 displaynoneanim">
+      <div class="row col-12 m-0 p-0">
+        <div class="image col-xs-12 col-md-6 p-0 text-center p-0">
+          <img src="img/portfolio.png" alt="Photo d'un de mes projet de création de mon portfolio"/>
+        </div>
+        <div class="textbutton col-xs-12 col-md-6 p-0 pl-md-3">
+          <p><span class="font-weight-bold sizetitle">Création de mon Portfolio,</span><br>
+            Projet de création de mon portfolio (Beta), durée du projet 1 semaine</p>
+          <ul class="list-unstyled listresponsiv">
+            <li>Languages:</li>
+            <li class="d-inline pr-1"><i class="fab fa-html5 fa-1x">HTML 5</i></li>
+            <li class="d-inline pr-1"><i class="fab fa-css3-alt fa-1x">CSS 3</i></li>
+            <li class="d-inline pr-1"><i class="fab fa-js-square fa-1x">JS</i></li>
+          </ul>
+          <ul class="list-unstyled pb-4 listresponsiv">
+            <li>Framework:</li>
+            <li class="d-inline bootstrap"><img src="img/bootstrap.png" alt="bootstrap"/>Bootstrap 4</li>
+          </ul>
+          <div class="text-center position-absolute centerbutton">
+            <input class="pl-2 pr-2 pt-1 pb-1" type="button" value="Voir" onclick="window.location.href='https://jessyfouace.github.io/portfolio/'">
+            <input class="pl-2 pr-2 pt-1 pb-1" type="button" value="Github" onclick="window.location.href='https://github.com/jessyfouace/portfolio'">
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-8 mx-auto mt-5 p-0 forborder">
+      </div>
+    </div>
+
+    <div id="bordermore" class="col-6 mx-auto text-center mt-5">
+      <p id="seemore" class="sizemore pt-2 pb-2">Voir Plus +</p>
+    </div>
+  </section>
+
+  <section class="pt-1 pb-4" id="about">
+    <h2 class="mt-5 p-0 col-10 mx-auto text-center">
+      <span class="titleportfolio2 pl-1 pr-1">A Propos</span>
+    </h2>
+    <div class="row p-0 col-10 mx-auto">
+      <div class="col-12 col-md-6 mx-auto text-center">
+        <img class="rounded-circle w-75" src="img/phototempo.jpg" alt="photo temporaire"/>
+      </div>
+      <div class="col-12 col-md-6 mx-auto text-center pt-4">
+        <p>Moi c'est Jessy, j'ai 19 ans, et j'habite à Calais, je suis actuellement en formation à SIMPLON Lesquin pour devenir développeur WEB ! Depuis l'âge de 6 ans j'ai toujours eu un ordinateur avec moi, au début c'étais comme pour tous gamins de cette âge, jouer à des jeux auquels personnes n'oserais re-jouer à notre âge. Puis vers l'âge de 14ans j'ai commencer à m'interesser au développement. J'ai tous d'abbord étais sur OpenClassRoom et CodeAcademy. Durant cette période j'étais au Lycée en BAC PRO Système Electronique et Numérique.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pt-1" id="contact">
+    <h1 class="mt-5 p-0 col-10 mx-auto text-center">
+      <span class="titleportfolio pl-1 pr-1">Contact</span>
+    </h1>
+    <div class="row col-10 mx-auto p-0">
+      <div class="leftcontact col-12 col-md-6">
+        <form>
+          <label for="name">Nom/Prénom* :</label>
+          <input id="name" class="inputtext d-block col-12 col-md-12 mx-auto p-0 mb-2 pt-1 pb-1 pl-2" type="text" required>
+          <label for="mail">E-mail* :</label>
+          <input id="mail" class="inputtext d-block col-12 col-md-12 mx-auto p-0 mb-2 pt-1 pb-1 pl-2" type="email" required>
+          <label for="sujet">Sujet* :</label>
+          <textarea id="sujet" class="inputtext d-block col-12 col-md-12 mx-auto p-0 mb-2 pt-1 pb-1 pl-2" rows="10" cols="20" required></textarea>
+          <p class="font-weight-bold pt-1 text-center">* = Champ Obligatoire</p>
+          <div class="col-12 p-0 text-center">
+            <input class="mb-2 p-1" type="submit" value="Envoyer">
+          </div>
+        </form>
+      </div>
+      <div class="rightcontact d-none d-md-block col-md-6 text-center">
+        <img src="img/fondheader2.png" alt="Image marquer mon nom mon prenom" class="mx-auto d-block mb-5 mt-5"/>
+        <a class="buttoncv p-1" href="CVJessy.pdf" download="CVJessy.pdf">Mon CV</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container colorfooter col-12">
+      <div class="row">
+        <p class="b-0 position-absolute text-white font-weight-bold">© 2018, JESSY FOUACE.</p>
+        <div class="col-6 mx-auto text-center pt-2 pb-4 pb-sm-0">
+          <ul class="titlefooter list-unstyled">
+            <li class="font-weight-bold">Rejoins moi</li>
+            <li class="d-inline"><i class="fab fa-github-square fa-2x"></i></li>
+            <li class="d-inline"><i class="fab fa-twitter-square fa-2x"></i></li>
+            <li class="d-inline"><i class="fab fa-linkedin fa-2x"></i></li>
+            <li class="d-block mt-2 d-md-none"><a class="buttoncv p-1" href="CVJessy.pdf" download="CVJessy.pdf">Mon CV</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
@@ -24,446 +282,6 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-</head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-
-<header id="toppage">
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#toppage"><img src="img/test.png" style="width:20px; height: 20px;" alt="Logo marquer J et F"/></a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#toppage">Accueil</a></li>
-          <li><a href="#realisation">Réalisations</a></li>
-          <li><a href="#aboutme">A Propos</a></li>
-          <li><a href="#myblog">Parcours</a></li>
-          <li><a href="#contactme">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <div class="middleheader">
-    <img src="img/fondheader2.png" alt="mon logo marquer Jessy fouace"/>
-    <h2>Développeur Web Junior</h2>
-  </div>
-
-</header>
-
-  <!-- ##############################################
-      ################################################
-      ############ Start of first page ##############
-      ################################################
-       ############################################## -->
-
-  <section class="firstsection">
-
-    <h3 id="realisation">
-      <span>Mes Réalisations</span>
-    </h3>
-    <div class="firstlinemodal">
-        <!-- Button trigger modal -->
-        <div class="card" data-toggle="modal" data-target="#exampleModal">
-          <img class="card-img-top" src="img/behance.png" style="width:100%; height:180px" alt="Card image of my project archiduchesse"/>
-          <div class="card-body">
-            <h5 class="card-title">Behance</h5>
-            <p class="card-text">Reconstitution du site Behance...</p>
-            <button type="button" class="btn btn-primary">
-              Voir plus
-            </button>
-          </div>
-        </div>
-
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Behance</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-                <a href="img/behance.png" target="_blank"><img src="img/behance.png" alt="Image d'un de mes travail (faire le front de la page archiduchesse)" style="width:80%"/></a>
-              <div class="imgformodal">
-                <h6>Languages</h6>
-                <i class="fab fa-html5 fa-1x">HTML 5</i>
-                <i class="fab fa-css3-alt fa-1x">CSS 3</i>
-              </div>
-              <div class="frameworkformodal">
-                <h6>Framework utilisés:</h6>
-                  <img src="img/bootstrap.png" alt="Image montrant le logo de bootstrap" style="width:25px"/><span class="frameworkbootstrap">Bootstrap</span>
-              </div>
-              <br><br>
-              <p>Projet de reconstitution du site Behance à la formation SIMPLON Lesquin (Durée du projet 2 jours).
-                <div class="buttonforarticle">
-                  <input type="button" value="Github" onclick="window.location.href='https://github.com/jessyfouace/behance'"/>
-                  <input type="button" value="Voir" onclick="window.location.href='https://jessyfouace.github.io/behance/'"/>
-                </div>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!--############## SECOND MODAL #############-->
-
-      <!-- Button trigger modal -->
-      <div class="card" data-toggle="modal" data-target="#exampleModal2">
-        <img class="card-img-top" src="img/pokemonfigth.png" style="width:100%; height:180px" alt="Card image of my project archiduchesse"/>
-        <div class="card-body">
-          <h5 class="card-title">Pokemon Fight</h5>
-          <p class="card-text">Création d'un mini-jeux JS...</p>
-          <button type="button" class="btn btn-primary">
-            Voir plus
-          </button>
-        </div>
-      </div>
-
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title2" id="exampleModalLabel2">Pokemon Fight</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-              <a href="img/pokemonfigth.png" target="_blank"><img src="img/pokemonfigth.png" alt="Image d'un de mes travail de reconstitution du site leboncoin" style="width:80%"/></a>
-              <div class="imgformodal">
-                <h6>Languages</h6>
-                  <i class="fab fa-html5 fa-1x">HTML 5</i>
-                  <i class="fab fa-css3-alt fa-1x">CSS 3</i>
-                  <i class="fab fa-js-square">JS</i>
-                </div>
-                <div class="frameworkformodal">
-                  <h6>Framework utilisés:</h6>
-                    <img src="img/bootstrap.png" alt="Image montrant le logo de bootstrap" style="width:25px"/><span class="frameworkbootstrap">Bootstrap</span>
-                </div>
-                <br><br>
-                <p>Projet de création d'un mini-jeu JS avec le DOM, je suis parti sur un shifumi Pokemon. (Durée du projet 1 jours et demi).
-              <div class="buttonforarticle">
-                <input type="button" value="Github" onclick="window.location.href='https://github.com/jessyfouace/PFCDOM'"/>
-                <input type="button" value="Voir" onclick="window.location.href='https://jessyfouace.github.io/PFCDOM/'"/>
-              </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-          </div>
-        </div>
-      </div>
-      </div>
-
-      <!-- ########### THIRD MODAL ########### -->
-
-      <!-- Button trigger modal -->
-      <div class="card" data-toggle="modal" data-target="#exampleModal3">
-        <img class="card-img-top" src="img/coiffeur.png" style="width:100%; height:180px" alt="Card image of my project archiduchesse"/>
-        <div class="card-body">
-          <h5 class="card-title">Yes We Tatoo</h5>
-          <p class="card-text">Création d'un site de Tatouage...</p>
-          <button type="button" class="btn btn-primary">
-            Voir plus
-          </button>
-        </div>
-      </div>
-
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title3" id="exampleModalLabel3">Yes We Tatoo</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-              <a href="img/coiffeur.png" target="_blank"><img src="img/coiffeur.png" alt="Image d'un travail de groupe, dont j'ai fais la partie contact" style="width:80%"/></a>
-              <div class="imgformodal">
-                <h6>Languages</h6>
-                  <i class="fab fa-html5 fa-1x">HTML 5</i>
-                  <i class="fab fa-css3-alt fa-1x">CSS 3</i>
-                </div>
-                <br><br>
-                <p>Projet de groupe à 3 personnes de création d'un site de coiffeur utilisation de framework interdit. (Durée du projet 1 semaine).
-              <div class="buttonforarticle">
-                <input type="button" value="Github" onclick="window.location.href='https://github.com/YesWeWeb/YesWeTatoo'"/>
-                <input type="button" value="Voir" onclick="window.location.href='https://yesweweb.github.io/YesWeTatoo/'"/>
-              </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
-
-
-<div class="secondlinemodal">
-  <!--############## 4TH MODAL #############-->
-
-  <!-- Button trigger modal -->
-  <div class="card" data-toggle="modal" data-target="#exampleModal4">
-    <img class="card-img-top" src="img/portfolio.png" style="width:100%; height:180px" alt="Card image of my project archiduchesse"/>
-    <div class="card-body">
-      <h5 class="card-title">PortFolio</h5>
-      <p class="card-text">Création de mon Portfolio...</p>
-      <button type="button" class="btn btn-primary">
-        Voir plus
-      </button>
-    </div>
-  </div>
-
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title2" id="exampleModalLabel4">Portfolio Jessy</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-          <a href="img/portfolio.png" target="_blank"><img src="img/portfolio.png" alt="Image d'un de mes travail de création de mon Portfolio" style="width:80%"/></a>
-          <div class="imgformodal">
-            <h6>Languages</h6>
-              <i class="fab fa-html5 fa-1x">HTML 5</i>
-              <i class="fab fa-css3-alt fa-1x">CSS 3</i>
-          </div>
-          <div class="frameworkformodal">
-            <h6>Framework utilisés:</h6>
-              <img src="img/bootstrap.png" alt="Image montrant le logo de bootstrap" style="width:25px"/><span class="frameworkbootstrap">Bootstrap</span>
-          </div>
-            <br><br>
-            <p>Projet de création du front de mon portfolio. Utilisation de framework autoriser (Seulement Bootstrap). (Durée du projet 1 semaine).
-          <div class="buttonforarticle">
-            <input type="button" value="Github" onclick="window.location.href='https://github.com/jessyfouace/portfolio/'"/>
-            <input type="button" value="Voir" onclick="window.location.href='https://jessyfouace.github.io/portfolio/'"/>
-          </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-      </div>
-    </div>
-  </div>
-  </div>
-
-  <!--############## FIFTH MODAL #############-->
-
-  <!-- Button trigger modal -->
-  <div class="card" data-toggle="modal" data-target="#exampleModal5">
-    <img class="card-img-top" src="img/coach.png" style="width:100%; height:180px" alt="Card image of my project archiduchesse"/>
-    <div class="card-body">
-      <h5 class="card-title">Coach Sportif</h5>
-      <p class="card-text">Création d'un site de coaching...</p>
-      <button type="button" class="btn btn-primary">
-        Voir plus
-      </button>
-    </div>
-  </div>
-
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title2" id="exampleModalLabel5">Coach Sportif</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-          <a href="img/coach.png" target="_blank"><img src="img/coach.png" alt="Image d'un de mes travail de création" style="width:80%"/></a>
-          <div class="imgformodal">
-            <h6>Languages</h6>
-              <i class="fab fa-html5 fa-1x">HTML 5</i>
-          </div>
-            <div class="frameworkformodal">
-              <h6>Framework utilisés:</h6>
-               <img src="img/bootstrap.png" alt="Image montrant le logo de bootstrap" style="width:25px"/><span class="frameworkbootstrap">Bootstrap</span>
-            </div>
-            <br><br>
-            <p>Projet de création d'un site de coaching. Utilisation de bootstrap et de HTML uniquement. (Durée du projet 1 semaine).
-          <div class="buttonforarticle">
-            <input type="button" value="Github" onclick="window.location.href='https://github.com/jessyfouace/coach'"/>
-            <input type="button" value="Voir" onclick="window.location.href='https://jessyfouace.github.io/coach/index.html'"/>
-          </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-      </div>
-    </div>
-  </div>
-  </div>
-  <!--############## SIX MODAL #############-->
-
-  <!-- Button trigger modal -->
-  <div class="card" data-toggle="modal" data-target="#exampleModal6">
-    <img class="card-img-top" src="img/pba.png" style="width:100%; height:180px" alt="Card image of my project archiduchesse"/>
-    <div class="card-body">
-      <h5 class="card-title">PBA Lille</h5>
-      <p class="card-text">Reproduction du site PBA-Lille...</p>
-      <button type="button" class="btn btn-primary">
-        Voir plus
-      </button>
-    </div>
-  </div>
-
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title2" id="exampleModalLabel6">PBA-Lille</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-          <a href="img/pba.png" target="_blank"><img src="img/pba.png" alt="Image d'un de mes travail de création" style="width:80%"/></a>
-          <div class="imgformodal">
-            <h6>Languages</h6>
-              <i class="fab fa-html5 fa-1x">HTML 5</i>
-              <i class="fab fa-css3-alt fa-1x">CSS 3</i>
-          </div>
-          <div class="frameworkformodal">
-            <h6>Framework utilisés:</h6>
-             <img src="img/bootstrap.png" alt="Image montrant le logo de bootstrap" style="width:25px"/><span class="frameworkbootstrap">Bootstrap</span>
-          </div>
-            <br><br>
-            <p>Reproduction du site PBA-Lille en Duo (Je me suis occuper de la page Visite + Agenda + Header).
-          <div class="buttonforarticle">
-            <input type="button" value="Github" onclick="window.location.href='https://github.com/YesWeWeb/PBA-Sofian-Jessy'"/>
-            <input type="button" value="Voir" onclick="window.location.href='https://yesweweb.github.io/PBA-Sofian-Jessy/visiter.html'"/>
-          </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-      </div>
-    </div>
-  </div>
-  </div>
-
-</div>
-</section>
-  <!-- #########################################
-      ###########################################
-      ############ Start of second page ########
-      ###########################################
-       ######################################### -->
-
-  <section>
-      <h3 id="aboutme">
-        <span>À Propos de moi</span>
-      </h3>
-      <div class="textaboutme">
-      <p>Moi c'est Jessy, j'ai 19 ans, et j'habite à Calais, je suis actuellement en formation à SIMPLON Lesquin pour devenir développeur WEB !
-        Depuis l'âge de 6 ans j'ai toujours eu un ordinateur avec moi, au début c'étais comme pour tous gamins de cette âge, jouer à des jeux
-        auquels personnes n'oserais re-jouer à notre âge. Puis vers l'âge de 14ans j'ai commencer à m'interesser au développement. J'ai tous d'abbord étais
-        sur OpenClassRoom et CodeAcademy. Durant cette période j'étais au Lycée en BAC PRO Système Electronique et Numérique. par la suite les années sont
-        passée et je me suis inscrit en Garantie jeune et par la même occasion à Simplon Lesquin pour apprendre mon boulot de rêve. Et à l'heure d'aujourd'hui
-        Je suis encore là bas entrain de me faire former au métier.
-      </div>
-  </section>
-  <!-- ##############################################
-      ################################################
-      ############ Start of third page ##############
-      ################################################
-       ############################################## -->
-
-  <section class="thirdsection">
-
-    <h3 id="myblog">
-      <span>Mon Parcours</span>
-    </h3>
-    <div class="allmyblog">
-      <div class="leftimage">
-        <img src="img/parcours.png" alt="Photo montrant mon parcours" style="width:50%"/>
-      </div>
-      <div class="righttext">
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ##############################################
-      ################################################
-      ############ Start of fourth page ##############
-      ################################################
-       ############################################## -->
-
-  <section>
-
-    <h3 id="contactme">
-      <span>Contacte moi</span>
-    </h3>
-  <div class="widthallcontact">
-    <div class="allform">
-      <form>
-      <div class="startform">
-          <label class ="labelforrestriction">*Champ Obligatoire</label>
-          <input class="name" type="text" placeholder="Nom/Prénom *" required/>
-          <input class="phone" type="tel" placeholder="Téléphone"/>
-          <input class="mail" type="email" placeholder="E-Mail *" required/>
-        </div>
-        <textarea  class="sujet" name="le-message" rows="10" cols="20" placeholder="Sujet *" required></textarea>
-        <input class="envoyerbutton" type="submit" value="Envoyer"/>
-      </form>
-    </div>
-
-    <div class="contactcv">
-      <img src="img/fondheader2.png" alt="mon logo marquer Jessy fouace"/>
-      <div class="utility">
-        <a href="CVjessy.pdf" download="CVjessy.pdf">Mon CV</a>
-      </div>
-      <a href="https://github.com/jessyfouace" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
-      <a href="https://www.linkedin.com/in/jessy-fouace-89a5a2165/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
-      <a href=""><i class="fab fa-twitter-square fa-3x"></i></a>
-    </div>
-  </div>
-  </section>
-
-  <!-- #########################################
-      ###########################################
-      ############ Start of Footer ##############
-      ###########################################
-       ######################################### -->
-  <footer>
-  <!--
-    <a href="" download="robots.txt">Télécharger mon CV</a>
-  -->
-
-  <div class="allfooterleft">
-    <div class="imgforleftfooter">
-      <h4>Rejoins Moi !</h4>
-      <a href="https://github.com/jessyfouace" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
-      <a href="https://www.linkedin.com/in/jessy-fouace-89a5a2165/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
-      <i class="fab fa-twitter-square fa-3x"></i>
-    </div>
-    <div class="copyright">
-      <h4>© 2018, JESSY FOUACE.</h4>
-    </div>
-    <div class="utility">
-      <a href="CVjessy.pdf" download="CVjessy.pdf">Mon CV</a>
-    </div>
-  </div>
-
-</footer>
-
 </body>
+
 </html>

@@ -97,454 +97,271 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   * {
-     margin: 0;
-     padding: 0;
-     font-family: "Source code pro", Verdana, sans-serif;
-   }
+/* NavBar */
+.fa-chevron-circle-down,
+img[src="img/logo.png"]{
+  width: 35px;
+  cursor: pointer;
+  color: #d72331;
+}
 
-   header {
-     width: 100%;
-     height: 100vh;
-     background-color: #1D1E18;
-     background-repeat: no-repeat;
-     color: white;
-     background-size: cover;
-     font-family: "Source code pro", Verdana, sans-serif;
-   }
+.fa-plus:hover{
+  cursor: pointer;
+}
 
-   .navbar-inverse {
-     position: fixed;
-     width: 100%;
-     z-index: 1000;
-   }
+.positiontext {
+  color: white;
+  top:40%;
+  font-size: 2em;
+}
 
-   .middleheader {
-     width: 77%;
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     text-align: center;
-     font-size: 12px;
-   }
+.colorpurple{
+  color: #df1323;
+}
 
-   .middleheader h2 {
-     padding-bottom: 20px;
-   }
+.rotateimg2{
+  transform: rotate(180deg);
+}
 
-   /* ############## START MIDDLE PAGE ############### */
-   /* ############## START MIDDLE PAGE ############### */
-   /* ############## START MIDDLE PAGE ############### */
-   /* ############## START MIDDLE PAGE ############### */
-   /* ############## START MIDDLE PAGE ############### */
-   /* ############## START MIDDLE PAGE ############### */
-   /* ############## START MIDDLE PAGE ############### */
 
-   input[type="button"]:hover {
+.norotateimg {
+  transform: rotate(0deg);
+  transition: transform 0.5s;
+}
 
-       background-color: #d24d57;
-       color: white;
+.rotateimg {
+  transform: rotate(45deg);
+  transition: transform 0.5s;
+}
 
-   }
+.topnavbar {
+  position: relative;
+  top: -225px;
+  transition: top 0.5s;
+}
 
-   h3 {
-     font-size: 18px;
-     border-bottom: 1px solid lightgrey;
-     display: block;
-     width: 90%;
-     margin: auto;
-     padding: 46px 0px 0px 0px;
-   }
+.topnavbarbutton {
+  position: relative;
+  top: 52px;
+  transition: top 0.5s;
+}
 
-   h3 span {
-     background-color: white;
-     top: 10px;
-     position: relative;
-     display: block;
-     margin: auto;
-     text-align: center;
-     width: 150px;
-     color: #d24d57;
-   }
+.bgnoir {
+  background: url(../img/fondheader.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
 
-   .firstsection,
-   .secondlinemodal,
-   .thirdsection,
-   .firstsection h3 span,
-   .thirdsection span{
-     background-color: #f8f8f8;
-   }
+@media screen and (max-width:767px) {
+  .bgnoir{
+    background: url(../img/fondheader2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
 
-   /* ############## START REALISATION PAGE ############### */
-   /* ############## START REALISATION PAGE ############### */
-   /* ############## START REALISATION PAGE ############### */
-   /* ############## START REALISATION PAGE ############### */
-   /* ############## START REALISATION PAGE ############### */
-   /* ############## START REALISATION PAGE ############### */
-   /* ############## START REALISATION PAGE ############### */
+.noirbg{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(29, 30, 24, 0.5);
+}
 
-   .buttonforarticle input {
-     border: 1px solid #d24d57;
-     border-radius: 3px;
-     background-color: inherit;
-     padding: 1px;
-     width: 20%;
-     color: #d24d57;
-     margin-top: 20px;
-   }
+#listfornavbar{
+  right:0;
+}
 
-   .fa-js-square {
-     color: #f7df1e;
-   }
+.navbargrey,
+#listfornavbar {
+  background-color:  rgba(136, 138, 145, 0.8);
+}
 
-   .buttonforarticle {
-     width: 100%;
-     text-align: center;
-     margin: 15px 0px 15px 0px;
-   }
+nav{
+  position: fixed;
+  z-index: 6;
+}
 
-   .card {
-     margin: auto;
-     display: inline-block;
-     text-align: center;
-     margin: 50px 0px 50px 0px;
-     cursor: pointer;
-     background-color: #ffffff;
-     width: 285px;
-     max-width: 300px;
-   }
+#listfornavbar {
+  z-index: 5;
+}
 
-   .card:hover {
-     transform: scale(1.1);
-   }
+#listfornavbar a{
+  color: white;
+}
 
-   .card-body button{
-     margin-bottom: 20px;
-   }
+#listfornavbar a:hover {
+  text-decoration: none;
+  color: #df1323;
+}
 
-   .firstlinemodal,
-   .secondlinemodal {
-     width: 90%;
-     margin: auto;
-     display: flex;
-     flex-direction: row;
-     flex-wrap: nowrap;
-     justify-content: space-between;
-   }
+.positiontoppage {
+  right: 33px;
+  bottom: 15px;
+  z-index: 2;
+}
 
-   .modal-body {
+/* REALISATION PAGE */
+
+#about {
+  background-color: #d24d57;
+}
+
+.sizetitle {
+  font-size: 25px;
+}
+
+h1 {
+  color: #d24d57;
+  border-top: 1px solid #d24d57;
+}
+
+h2 {
+  border-top: 1px solid rgba(136, 138, 145);
+}
+
+.titleportfolio2 {
+  font-size: 30px;
+  top: -20px;
+  position: relative;
+  background-color: #d24d57;
+}
+
+.titleportfolio {
+  font-size: 30px;
+  top: -30px;
+  position: relative;
+  background-color: white;
+}
+
+.image img{
+  width:100%;
+}
+
+.buttoncv,
+.rightcontact a,
+input[type="submit"],
+input[type="button"]{
+  background: #d72331;
+  border: 1px solid #d72331;
+  border-radius: 2px;
+  color: white
+}
+
+input[type="button"]:hover{
+  cursor: pointer;
+  color: #d72331;
+  background: white;
+  border: 1px solid #d72331;
+}
+
+.centerbutton {
+  bottom: 0;
+  width: 100%;
+}
+
+.textbutton p {
+  margin-bottom: 50px;
+}
+
+.sizemore {
+  font-size: 20px;
+  border: 1px dashed black;
+}
+
+#bordermore {
+  border-style: dashed;
+}
+
+#bordermore:hover{
+  cursor: pointer;
+}
+
+.displaynoneanim{
+  display: none;
+  transition: display 1s;
+}
+
+.displayanim {
+  display: block;
+  transition: display 1s;
+}
+
+.forborder {
+  border-bottom: 1px solid #d24d57;
+}
+
+img[src="img/bootstrap.png"]{
+  width:25px;
+}
+
+.bootstrap {
+  color: #7a00b7;
+}
+
+.fa-html5{
+  color: #eb4420;
+}
+
+.fa-js-square{
+  color: #f7df1e;
+}
+
+.fa-css3-alt{
+  color: #026dbb;
+}
+
+@media screen and (max-width: 700px) {
+  .titleportfolio {
+    font-size: 20px;
+  }
+  .listresponsiv{
     text-align: center;
-   }
+  }
+}
 
-   .imgformodal,
-   .frameworkformodal {
-     width: 48%;
-     display: inline-block;
-   }
+/* CONTACT PAGE */
 
-   .frameworkbootstrap {
-     color:#7a00b7;
-   }
+.inputtext{
+  background-color: white;
+  border: 2px solid #d24d57;
+  border-radius: 5px;
+  color: black;
+}
 
-   .fa-html5 {
-     color:#eb4420;
-   }
+/* footer */
+.colorfooter {
+  background: #1d1e18;
+}
 
-   .fa-css3-alt {
-     color:#026dbb;
-   }
-   /* ############## START ABOUT PAGE ############### */
-   /* ############## START ABOUT PAGE ############### */
-   /* ############## START ABOUT PAGE ############### */
-   /* ############## START ABOUT PAGE ############### */
-   /* ############## START ABOUT PAGE ############### */
-   /* ############## START ABOUT PAGE ############### */
-   /* ############## START ABOUT PAGE ############### */
+.titlefooter{
+  color: white;
+}
+.fa-linkedin,
+.fa-twitter-square,
+.fa-github-square{
+  color: #d24d57;
+}
 
-   .textaboutme {
-     width: 90%;
-     display: block;
-     margin: auto;
-     padding: 30px 0px 20px 0px;
-     text-align: center;
-     line-height: 25px;
-   }
+.b-0{
+  bottom: 0;
+}
 
+.buttoncv,
+.rightcontact a,
+input[type="submit"]{
+  border-radius: 2px;
+}
 
-   /* ############## START BLOG PAGE ############### */
-   /* ############## START BLOG PAGE ############### */
-   /* ############## START BLOG PAGE ############### */
-   /* ############## START BLOG PAGE ############### */
-   /* ############## START BLOG PAGE ############### */
-   /* ############## START BLOG PAGE ############### */
-   /* ############## START BLOG PAGE ############### */
-
-
-   .allmyblog {
-     width: 90%;
-     display: block;
-     margin: auto;
-     text-align: center;
-     margin-bottom: 30px;
-   }
-
-   .allmyblog img,
-   .allmyblog p {
-     margin-top: 30px;
-   }
-
-
-
-
-   /* ############## START FORMULAIRE PAGE ############### */
-   /* ############## START FORMULAIRE PAGE ############### */
-   /* ############## START FORMULAIRE PAGE ############### */
-   /* ############## START FORMULAIRE PAGE ############### */
-   /* ############## START FORMULAIRE PAGE ############### */
-   /* ############## START FORMULAIRE PAGE ############### */
-   /* ############## START FORMULAIRE PAGE ############### */
-
-   .allform {
-     width: 90%;
-     margin: auto;
-     text-align: center;
-   }
-
-   .allform {
-     margin-top: 20px;
-   }
-
-   .startform input,
-   .allform textarea {
-     background-color: white;
-     border: 1px solid #d24d57;
-     border-radius: 6px;
-     color: grey;
-     padding: 5px 4px 5px 10px;
-     width: 80%;
-     display: block;
-     margin: auto;
-     margin-top: 20px;
-   }
-
-   .envoyerbutton {
-     width: 30%;
-     max-width: 200px;
-     background-color: #d24d57;
-     border: none;
-     border-radius: 6px;
-     color: white;
-     padding: 5px 4px 5px 10px;
-     display: block;
-     margin: auto;
-     margin-top: 10px;
-   }
-
-   .utility a {
-     background-color: #ffffff;
-     border-radius: 3px;
-     text-decoration: none;
-     color: #d24d57;
-     padding: 2px;
-     width: 100%;
-   }
-
-   h4 {
-     color: white;
-     vertical-align: top;
-   }
-
-   .imgforleftfooter,
-   .utility,
-   .copyright {
-     width: 48%;
-     display: inline-block;
-     text-align: center;
-   }
-
-   .utility {
-     vertical-align: top;
-   }
-
-   .allfooterleft {
-     width: 84%;
-     display: block;
-     margin: auto;
-     text-align: center;
-   }
-
-   i {
-     color: #d24d57;
-   }
-
-   .envoyerbutton {
-     cursor: pointer;
-   }
-   /* ############## START FOOTER PAGE ############### */
-   /* ############## START FOOTER PAGE ############### */
-   /* ############## START FOOTER PAGE ############### */
-   /* ############## START FOOTER PAGE ############### */
-   /* ############## START FOOTER PAGE ############### */
-   /* ############## START FOOTER PAGE ############### */
-   /* ############## START FOOTER PAGE ############### */
-
-   footer {
-     background-color: #1D1E18;
-     margin-top: 30px;
-     position: absolute;
-     width: 100%;
-     padding-bottom: 20px;
-   }
-
-   .utility{
-      margin-top:50px;
-   }
-
-   h4 {
-     padding: 15px 0px 0px 0px;
-   }
-
-   @media screen and (max-width: 767px) {
-       .copyright,
-       .contactcv {
-         display: none;
-       }
-
-       .card {
-         display: block;
-         margin: auto;
-         text-align: center;
-         margin: 40px 0px 20px 0px;
-         cursor: pointer;
-       }
-
-       .card {
-         display: block;
-         margin: auto;
-         margin-top: 45px;
-         background-color: inherit;
-       }
-
-       .card:hover {
-         transform:scale(1);
-       }
-
-       .btn-primary {
-         margin-bottom: 20px;
-       }
-
-       .firstlinemodal,
-       .secondlinemodal {
-         width: 90%;
-         margin: auto;
-         display: block;
-         flex-direction: row;
-         flex-wrap: nowrap;
-         justify-content: space-between;
-       }
-   }
-
-   @media screen and (min-width: 768px) {
-
-     .imgforleftfooter,
-     .utility,
-     .copyright {
-       width: 30%;
-     }
-     .copyright {
-       vertical-align: bottom;
-     }
-
-     .utility a {
-       padding: 3px 5px 3px 5px;
-     }
-
-     .nav li {
-       font-size: 20px;
-     }
-
-     .allmyblog {
-       display: inline-block;
-     }
-
-     .leftimage,
-     .righttext {
-       width: 48%;
-       display: inline-block;
-     }
-
-     .startform input,
-     .allform textarea {
-       width: 75%;
-     }
-
-     .allform {
-       width: 48%;
-       display: inline-block;
-     }
-
-     .contactcv {
-       width: 48%;
-       display: inline-block;
-       text-align: center;
-       vertical-align: top;
-       margin-top: 90px;
-     }
-
-     .contactcv img,
-     .contactcv .utility,
-     .contactcv i {
-       display: block;
-       margin: auto;
-     }
-
-     .contactcv img,
-     .contactcv .utility {
-       padding-top: 30px;
-     }
-
-     .contactcv h4 {
-       color: #1d1e18;
-     }
-
-     .contactcv i {
-       display: inline-block;
-       margin-top: 40px;
-     }
-
-     .widthallcontact {
-       width: 100%;
-       display: block;
-       margin: auto;
-     }
-
-     .contactcv .utility a {
-      background-color: white;
-      border: 1px solid #d24d57;
-      color: #d24d57;
-      padding: 10px 25px 10px 25px;
-     }
-
-     .contactcv .utility h4 {
-       padding-bottom: 20px;
-     }
-
-     i {
-       cursor: pointer;
-     }
-
-     .contactcv .utility a:hover {
-       background-color: #d24d57;
-       color: white;
-     }
-
-   }
-
-   .navbar {
-     margin-bottom: 0;
-     border-radius: 0;
-   }
+.buttoncv:hover,
+.rightcontact a:hover,
+input[type="submit"]:hover{
+  text-decoration: none;
+  cursor: pointer;
+  color: #d24d57;
+  border: 1px solid #d24d57;
+  background: white;
+}
 
 /* ==========================================================================
    Helper classes
