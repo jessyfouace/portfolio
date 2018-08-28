@@ -1,5 +1,6 @@
 var listfornav = document.getElementById("listfornavbar");
 var navbarm = document.getElementById("navbarmore");
+var burger = document.getElementById("burger");
 navbarm.onclick = function() {showlist()};
 listfornav.onclick = function() {showlist(2)};
 valuelist = 0;
@@ -9,14 +10,11 @@ valuelist = 0;
     if (valuelist == 1) {
       listfornav.classList.remove("topnavbar");
       listfornav.classList.add("topnavbarbutton");
-      navbarm.classList.add("rotateimg");
-      navbarm.classList.remove("norotateimg");
     }
     if (valuelist == 2) {
-      navbarm.classList.add("norotateimg");
       listfornav.classList.add("topnavbar");
       listfornav.classList.remove("topnavbarbutton");
-      navbarm.classList.remove("rotateimg");
+      burger.classList.remove("active");
       valuelist = 0;
     }
   }
