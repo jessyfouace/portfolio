@@ -42,6 +42,7 @@ function showmore(){
         d = document.getElementById(c).classList.add("displaynoneanim");
         e = document.getElementById(c).classList.remove("displayanim");
       }
+      location.hash = "#about";
       document.getElementById("seemore").innerHTML = "Voir Plus +";
       counter = 0;
   }
